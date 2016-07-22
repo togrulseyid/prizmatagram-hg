@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PrizmaTagram</string>
+    <string name="action_next">Next</string>
+    <string name="action_reset">Reset</string>
+</resources>

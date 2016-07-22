@@ -1,0 +1,5 @@
+syntax: glob
+OpenCV-android-sdk/
+openCVLibrary310/build/
+app/build/
+build/
