@@ -54,11 +54,6 @@ public class MainActivity extends AppCompatActivity {
     public void onResume() {
         super.onResume();
         mLoaderCallback.onManagerConnected(LoaderCallbackInterface.SUCCESS);
-//        boolean loaded = OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION_3_1_0, this, mLoaderCallback);
-//        if (!loaded) {
-//            Log.d(TAG, "Can not load zibil");
-//        }
-
     }
 
     private ImageView imageView;

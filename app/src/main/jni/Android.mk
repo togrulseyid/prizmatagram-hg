@@ -20,6 +20,10 @@ LOCAL_SRC_FILES := NativeClass.cpp \
                     effects/television.cpp \
 
 #LOCAL_C_INCLUDES += $(LOCAL_PATH)
-LOCAL_LDLIBS     += -llog -ldl
+LOCAL_LDLIBS += -lm -llog -lc -ldl -lz -landroid
+
+LOCAL_CFLAGS += -fopenmp
+LOCAL_CXXFLAGS += -fopenmp
+LOCAL_LDLIBS += -fopenmp
 
 include $(BUILD_SHARED_LIBRARY)

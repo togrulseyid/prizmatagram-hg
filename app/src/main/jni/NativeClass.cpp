@@ -51,7 +51,7 @@ JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_myN
         }
     }
 
-    LOGD("channels=%i\n", channels);
+    //LOGD("channels=%i\n", channels);
 }
 
 /*
@@ -78,7 +78,7 @@ JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_nat
     cv::Mat m = mosaic(mat, gridSize);
     mat = m;
     m.release();
-    LOGD("Java_com_togrulseyid_projectx_NativeClass_nativeDithering");
+    //LOGD("Java_com_togrulseyid_projectx_NativeClass_nativeDithering");
 }
 
 /*
@@ -121,10 +121,10 @@ JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_nat
 
     //NativeLog
 
-    LOGE("Salam");
-    LOGW("Salam");
-    LOGI("Salam");
-    LOGD("Salam");
+  //  LOGE("Salam");
+  //  LOGW("Salam");
+  //  LOGI("Salam");
+  //  LOGD("Salam");
 }
 
 #ifdef __cplusplus

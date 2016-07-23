@@ -2,9 +2,7 @@
 // Created by toghrul on 17.07.2016.
 //
 
-#include <effects/GaussianBlur.h>
-
-#include <omp.h>
+#include "effects/GaussianBlur.h"
 
 #ifdef __cplusplus
 extern "C" {

@@ -60,7 +60,7 @@ void television2(cv::Mat &matIn) {
 
 	///----------------------------
 
-	LOGD("channels: %d", channels);
+//	LOGD("channels: %d", channels);
 //	int r, g, b;
 	int color[4];
 	for (int x = 0; x < height; x += distance) {
@@ -238,12 +238,12 @@ double decolorisation = 0.7;
 
 void nativeTelevision(cv::Mat &img) {
 
-	LOGD("Image Type: %d\n", img.type());
+//	LOGD("Image Type: %d\n", img.type());
 //	cv::Mat imgOut = cv::Mat::zeros(img.size(), img.type());
 
 	cv::Mat imgOut = img.clone();
 
-	LOGD("img.rows: %d - img.cols: %d - img.cols + img.rows: %d\n", img.rows, img.cols, (img.cols + img.rows));
+//	LOGD("img.rows: %d - img.cols: %d - img.cols + img.rows: %d\n", img.rows, img.cols, (img.cols + img.rows));
 
 	int width = imgOut.size().width;
 	int height = imgOut.size().height;
@@ -269,7 +269,7 @@ void nativeTelevision(cv::Mat &img) {
 		}
 	}
 
-	LOGD("Oldu bitdi nativeTelevision");
+//	LOGD("Oldu bitdi nativeTelevision");
 
 	imgOut.release();
 

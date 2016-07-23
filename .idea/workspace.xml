@@ -11,8 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="589a9249-c3ee-4929-9f11-25d74cdc3602" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/jni/core/std_head.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/jni/core/std_head.h" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
@@ -28,6 +26,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/jni/Android.mk" afterPath="$PROJECT_DIR$/app/src/main/jni/Android.mk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/jni/NativeClass.cpp" afterPath="$PROJECT_DIR$/app/src/main/jni/NativeClass.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/jni/core/std_head.h" afterPath="$PROJECT_DIR$/app/src/main/jni/core/std_head.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/jni/effects/GaussianBlur.cpp" afterPath="$PROJECT_DIR$/app/src/main/jni/effects/GaussianBlur.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/jni/effects/Pixelize.cpp" afterPath="$PROJECT_DIR$/app/src/main/jni/effects/Pixelize.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/jni/effects/mosaic.cpp" afterPath="$PROJECT_DIR$/app/src/main/jni/effects/mosaic.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/jni/effects/television.cpp" afterPath="$PROJECT_DIR$/app/src/main/jni/effects/television.cpp" />
     </list>
     <ignored path="PrizmaTagram.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,21 +59,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+              <caret line="90" column="29" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/MainActivity.java">
+      <file leaf-file-name="NativeClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/natives/NativeClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.50268817">
-              <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="40" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -79,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/jni/Android.mk">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -98,19 +102,69 @@
       <file leaf-file-name="NativeClass.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/jni/NativeClass.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.3148148">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state vertical-scroll-proportion="-2.6296296">
+              <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
               <folding>
-                <marker date="1469233027802" expanded="true" signature="0:80" placeholder="/.../" />
-                <marker date="1469233027802" expanded="true" signature="91:198" placeholder="..." />
-                <marker date="1469233027802" expanded="true" signature="239:287" placeholder="..." />
-                <marker date="1469233027802" expanded="true" signature="537:640" placeholder="/.../" />
-                <marker date="1469233027802" expanded="true" signature="1224:1326" placeholder="/.../" />
-                <marker date="1469233027802" expanded="true" signature="1562:1661" placeholder="/.../" />
-                <marker date="1469233027802" expanded="true" signature="1999:2102" placeholder="/.../" />
-                <marker date="1469233027802" expanded="true" signature="2316:2417" placeholder="/.../" />
-                <marker date="1469233027802" expanded="true" signature="2629:2726" placeholder="/.../" />
-                <marker date="1469233027802" expanded="true" signature="2908:2978" placeholder="//..." />
+                <marker date="1469240465335" expanded="true" signature="0:80" placeholder="/.../" />
+                <marker date="1469240465335" expanded="true" signature="91:198" placeholder="..." />
+                <marker date="1469240465335" expanded="true" signature="239:287" placeholder="..." />
+                <marker date="1469240465335" expanded="true" signature="537:640" placeholder="/.../" />
+                <marker date="1469240465335" expanded="true" signature="1226:1328" placeholder="/.../" />
+                <marker date="1469240465335" expanded="true" signature="1564:1663" placeholder="/.../" />
+                <marker date="1469240465335" expanded="true" signature="2003:2106" placeholder="/.../" />
+                <marker date="1469240465335" expanded="true" signature="2320:2421" placeholder="/.../" />
+                <marker date="1469240465335" expanded="true" signature="2633:2730" placeholder="/.../" />
+                <marker date="1469240465335" expanded="true" signature="2912:2982" placeholder="//..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pixelize.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/jni/effects/Pixelize.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6257862">
+              <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+              <folding>
+                <marker date="1469241801353" expanded="true" signature="114:173" placeholder="/.../" />
+                <marker date="1469241801353" expanded="true" signature="196:223" placeholder="{...}" />
+                <marker date="1469241801353" expanded="true" signature="251:2267" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="television.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/jni/effects/television.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.092592">
+              <caret line="271" column="2" selection-start-line="271" selection-start-column="2" selection-end-line="271" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pixelize.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/jni/effects/Pixelize.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1469232343194" expanded="true" signature="0:42" placeholder="//..." />
+                <marker date="1469232343194" expanded="true" signature="154:837" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="std_head.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/jni/core/std_head.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="8.425926">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+              <folding>
+                <marker date="1469240727753" expanded="true" signature="0:75" placeholder="/.../" />
+                <marker date="1469240727753" expanded="true" signature="1124:1177" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -2553,7 +2607,6 @@
         <option value="$PROJECT_DIR$/app/src/main/jni/Pixelize.cpp" />
         <option value="$PROJECT_DIR$/app/src/main/jni/effects/mosaic2.h" />
         <option value="$PROJECT_DIR$/app/src/main/jni/effects/GaussianBlur.h" />
-        <option value="$PROJECT_DIR$/app/src/main/jni/effects/mosaic.cpp" />
         <option value="$PROJECT_DIR$/app/src/main/jni/Pixelize.h" />
         <option value="$PROJECT_DIR$/app/src/main/jni/GaussianBlur.cpp" />
         <option value="$PROJECT_DIR$/app/src/main/jni/GaussianBlur.h" />
@@ -2565,16 +2618,17 @@
         <option value="$PROJECT_DIR$/app/src/main/jni/effects/dithering.h" />
         <option value="$PROJECT_DIR$/app/src/main/jni/effects/GaussianBlur.cpp" />
         <option value="$PROJECT_DIR$/app/src/main/jni/effects/Pixelize.h" />
-        <option value="$PROJECT_DIR$/app/src/main/jni/core/std_head.h" />
         <option value="$PROJECT_DIR$/app/src/main/jni/core/std_head.cpp" />
-        <option value="$PROJECT_DIR$/app/src/main/jni/NativeClass.cpp" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/jni/effects/television.cpp" />
         <option value="$PROJECT_DIR$/app/src/main/jni/effects/television.h" />
-        <option value="$PROJECT_DIR$/app/src/main/jni/effects/Pixelize.cpp" />
         <option value="$PROJECT_DIR$/app/src/main/jni/Application.mk" />
+        <option value="$PROJECT_DIR$/app/src/main/jni/effects/mosaic.cpp" />
+        <option value="$PROJECT_DIR$/app/src/main/jni/NativeClass.cpp" />
+        <option value="$PROJECT_DIR$/app/src/main/jni/effects/television.cpp" />
+        <option value="$PROJECT_DIR$/app/src/main/jni/core/std_head.h" />
         <option value="$PROJECT_DIR$/app/src/main/jni/Android.mk" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/jni/effects/Pixelize.cpp" />
       </list>
     </option>
   </component>
@@ -2595,7 +2649,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -2681,10 +2735,217 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PrizmaTagram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PrizmaTagram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jni" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="PrizmaTagram">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="PrizmaTagram">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="PrizmaTagram">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="PrizmaTagram">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT=".idea">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="jni">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="jni">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="effects">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="jni">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="core">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -3109,15 +3370,15 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24886535" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24886535" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -3138,7 +3399,7 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
@@ -3154,10 +3415,10 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24886535" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24886535" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -3202,9 +3463,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <marker date="1469234455888" expanded="true" signature="114:173" placeholder="/.../" />
-            <marker date="1469234455888" expanded="true" signature="196:223" placeholder="{...}" />
-            <marker date="1469234455888" expanded="true" signature="251:1734" placeholder="{...}" />
+            <marker date="1469241801353" expanded="true" signature="114:173" placeholder="/.../" />
+            <marker date="1469241801353" expanded="true" signature="196:223" placeholder="{...}" />
+            <marker date="1469241801353" expanded="true" signature="251:2267" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -3233,8 +3494,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
           <folding>
-            <marker date="1469232422821" expanded="true" signature="0:75" placeholder="/.../" />
-            <marker date="1469232422821" expanded="true" signature="1124:1177" placeholder="{...}" />
+            <marker date="1469240727753" expanded="true" signature="0:75" placeholder="/.../" />
+            <marker date="1469240727753" expanded="true" signature="1124:1177" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -3244,16 +3505,16 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <marker date="1469233027802" expanded="true" signature="0:80" placeholder="/.../" />
-            <marker date="1469233027802" expanded="true" signature="91:198" placeholder="..." />
-            <marker date="1469233027802" expanded="true" signature="239:287" placeholder="..." />
-            <marker date="1469233027802" expanded="true" signature="537:640" placeholder="/.../" />
-            <marker date="1469233027802" expanded="true" signature="1224:1326" placeholder="/.../" />
-            <marker date="1469233027802" expanded="true" signature="1562:1661" placeholder="/.../" />
-            <marker date="1469233027802" expanded="true" signature="1999:2102" placeholder="/.../" />
-            <marker date="1469233027802" expanded="true" signature="2316:2417" placeholder="/.../" />
-            <marker date="1469233027802" expanded="true" signature="2629:2726" placeholder="/.../" />
-            <marker date="1469233027802" expanded="true" signature="2908:2978" placeholder="//..." />
+            <marker date="1469240465335" expanded="true" signature="0:80" placeholder="/.../" />
+            <marker date="1469240465335" expanded="true" signature="91:198" placeholder="..." />
+            <marker date="1469240465335" expanded="true" signature="239:287" placeholder="..." />
+            <marker date="1469240465335" expanded="true" signature="537:640" placeholder="/.../" />
+            <marker date="1469240465335" expanded="true" signature="1226:1328" placeholder="/.../" />
+            <marker date="1469240465335" expanded="true" signature="1564:1663" placeholder="/.../" />
+            <marker date="1469240465335" expanded="true" signature="2003:2106" placeholder="/.../" />
+            <marker date="1469240465335" expanded="true" signature="2320:2421" placeholder="/.../" />
+            <marker date="1469240465335" expanded="true" signature="2633:2730" placeholder="/.../" />
+            <marker date="1469240465335" expanded="true" signature="2912:2982" placeholder="//..." />
           </folding>
         </state>
       </provider>
@@ -3279,16 +3540,16 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding>
-            <marker date="1469233027802" expanded="true" signature="0:80" placeholder="/.../" />
-            <marker date="1469233027802" expanded="true" signature="91:198" placeholder="..." />
-            <marker date="1469233027802" expanded="true" signature="239:287" placeholder="..." />
-            <marker date="1469233027802" expanded="true" signature="537:640" placeholder="/.../" />
-            <marker date="1469233027802" expanded="true" signature="1224:1326" placeholder="/.../" />
-            <marker date="1469233027802" expanded="true" signature="1562:1661" placeholder="/.../" />
-            <marker date="1469233027802" expanded="true" signature="1999:2102" placeholder="/.../" />
-            <marker date="1469233027802" expanded="true" signature="2316:2417" placeholder="/.../" />
-            <marker date="1469233027802" expanded="true" signature="2629:2726" placeholder="/.../" />
-            <marker date="1469233027802" expanded="true" signature="2908:2978" placeholder="//..." />
+            <marker date="1469240465335" expanded="true" signature="0:80" placeholder="/.../" />
+            <marker date="1469240465335" expanded="true" signature="91:198" placeholder="..." />
+            <marker date="1469240465335" expanded="true" signature="239:287" placeholder="..." />
+            <marker date="1469240465335" expanded="true" signature="537:640" placeholder="/.../" />
+            <marker date="1469240465335" expanded="true" signature="1226:1328" placeholder="/.../" />
+            <marker date="1469240465335" expanded="true" signature="1564:1663" placeholder="/.../" />
+            <marker date="1469240465335" expanded="true" signature="2003:2106" placeholder="/.../" />
+            <marker date="1469240465335" expanded="true" signature="2320:2421" placeholder="/.../" />
+            <marker date="1469240465335" expanded="true" signature="2633:2730" placeholder="/.../" />
+            <marker date="1469240465335" expanded="true" signature="2912:2982" placeholder="//..." />
           </folding>
         </state>
       </provider>
@@ -3392,13 +3653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/jni/effects/dithering.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.037037">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/jni/effects/dithering.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.296296">
@@ -3414,13 +3668,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/jni/effects/GaussianBlur.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/jni/effects/mosaic.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -3462,57 +3709,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/jni/effects/television.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1566265">
-          <caret line="236" column="0" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/jni/effects/television.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.572327">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/jni/effects/Pixelize.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.4814816">
-          <caret line="60" column="2" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
-          <folding>
-            <marker date="1469234455888" expanded="true" signature="114:173" placeholder="/.../" />
-            <marker date="1469234455888" expanded="true" signature="196:223" placeholder="{...}" />
-            <marker date="1469234455888" expanded="true" signature="251:1734" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/jni/NativeClass.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.3148148">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <marker date="1469233027802" expanded="true" signature="0:80" placeholder="/.../" />
-            <marker date="1469233027802" expanded="true" signature="91:198" placeholder="..." />
-            <marker date="1469233027802" expanded="true" signature="239:287" placeholder="..." />
-            <marker date="1469233027802" expanded="true" signature="537:640" placeholder="/.../" />
-            <marker date="1469233027802" expanded="true" signature="1224:1326" placeholder="/.../" />
-            <marker date="1469233027802" expanded="true" signature="1562:1661" placeholder="/.../" />
-            <marker date="1469233027802" expanded="true" signature="1999:2102" placeholder="/.../" />
-            <marker date="1469233027802" expanded="true" signature="2316:2417" placeholder="/.../" />
-            <marker date="1469233027802" expanded="true" signature="2629:2726" placeholder="/.../" />
-            <marker date="1469233027802" expanded="true" signature="2908:2978" placeholder="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -3537,25 +3737,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/jni/core/std_head.h">
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5503144">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding>
-            <marker date="1469232422821" expanded="true" signature="0:75" placeholder="/.../" />
-            <marker date="1469232422821" expanded="true" signature="1124:1177" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/jni/effects/Pixelize.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05345912">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <marker date="1469232343194" expanded="true" signature="0:42" placeholder="//..." />
-            <marker date="1469232343194" expanded="true" signature="154:837" placeholder="{...}" />
-          </folding>
+        <state vertical-scroll-proportion="0.072183095">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3567,19 +3753,104 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/effects/mosaic.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.0094337">
+          <caret line="12" column="83" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/effects/dithering.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6886792">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/core/std_head.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="8.425926">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <marker date="1469240727753" expanded="true" signature="0:75" placeholder="/.../" />
+            <marker date="1469240727753" expanded="true" signature="1124:1177" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/effects/Pixelize.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1469232343194" expanded="true" signature="0:42" placeholder="//..." />
+            <marker date="1469232343194" expanded="true" signature="154:837" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/effects/television.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.092592">
+          <caret line="271" column="2" selection-start-line="271" selection-start-column="2" selection-end-line="271" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/jni/Android.mk">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50268817">
-          <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="90" column="29" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/natives/NativeClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/NativeClass.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6296296">
+          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <folding>
+            <marker date="1469240465335" expanded="true" signature="0:80" placeholder="/.../" />
+            <marker date="1469240465335" expanded="true" signature="91:198" placeholder="..." />
+            <marker date="1469240465335" expanded="true" signature="239:287" placeholder="..." />
+            <marker date="1469240465335" expanded="true" signature="537:640" placeholder="/.../" />
+            <marker date="1469240465335" expanded="true" signature="1226:1328" placeholder="/.../" />
+            <marker date="1469240465335" expanded="true" signature="1564:1663" placeholder="/.../" />
+            <marker date="1469240465335" expanded="true" signature="2003:2106" placeholder="/.../" />
+            <marker date="1469240465335" expanded="true" signature="2320:2421" placeholder="/.../" />
+            <marker date="1469240465335" expanded="true" signature="2633:2730" placeholder="/.../" />
+            <marker date="1469240465335" expanded="true" signature="2912:2982" placeholder="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/effects/Pixelize.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6257862">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+          <folding>
+            <marker date="1469241801353" expanded="true" signature="114:173" placeholder="/.../" />
+            <marker date="1469241801353" expanded="true" signature="196:223" placeholder="{...}" />
+            <marker date="1469241801353" expanded="true" signature="251:2267" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

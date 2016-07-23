@@ -33,15 +33,21 @@ void Pixelize::process()
 
 	//LOGD("qaqa uzun oldu ee %d\n\n", (imgOut.size().height*imgOut.size().width/2*3));
 
-//    #pragma omp parallel
-//    {
+    #pragma omp parallel
+    {
+        int cores = omp_get_num_procs(); /* total number of cores available */
+        int tid = omp_get_thread_num(); /* the current thread ID */
+        int total_threads = omp_get_num_threads(); /* total number of threads */
+        int max_threads = omp_get_max_threads(); /* maximal number of threads can be requested in this Processor */
 
-        //int numThread = omp_get_num_threads();
-        //omp_set_num_threads(4);
+        if (tid == 0) {
+            LOGI("%i : You have %d cores Processor.\n",tid, cores);
+            LOGI("%i : OpenMP generated %d threads.[max = %d].\n",tid, total_threads, max_threads);
+        }
+        //printf("%i : This is print by thread[%i]\n",tid,tid);
+        LOGI("%i : This is print by thread[%i]\n",tid,tid);
 
-       // LOGD("numThread=%d\n\n", numThread);
-
-      //  #pragma omp for
+        #pragma omp for
         for (int i = 0; i < imgOut.size().height; ++i) {
             for (int j = 0; j < imgOut.size().width/2*3; ++j) {
 
@@ -58,9 +64,9 @@ void Pixelize::process()
                 mat->at < cv::Vec3b > (i, j) = newColor;
             }
         }
-//    }
+    }
 
-	LOGD("qaqa uzun oldu ee %d %d ", imgOut.size().height, imgOut.size().width);
+	//LOGD("qaqa uzun oldu ee %d %d ", imgOut.size().height, imgOut.size().width);
 
 	imgOut.release();
 }
