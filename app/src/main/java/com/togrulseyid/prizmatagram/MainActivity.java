@@ -54,10 +54,10 @@ public class MainActivity extends AppCompatActivity {
     public void onResume() {
         super.onResume();
         mLoaderCallback.onManagerConnected(LoaderCallbackInterface.SUCCESS);
-        boolean loaded = OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION_3_1_0, this, mLoaderCallback);
-        if (!loaded) {
-            Log.d(TAG, "Can not load zibil");
-        }
+//        boolean loaded = OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION_3_1_0, this, mLoaderCallback);
+//        if (!loaded) {
+//            Log.d(TAG, "Can not load zibil");
+//        }
 
     }
 
@@ -70,7 +70,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         imageView = (ImageView) findViewById(R.id.imageView);
-
     }
 
 

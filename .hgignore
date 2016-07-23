@@ -3,3 +3,5 @@ OpenCV-android-sdk/
 openCVLibrary310/build/
 app/build/
 build/
+app/src/main/libs/
+app/src/main/obj/
