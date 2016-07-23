@@ -17,4 +17,6 @@ APP_CPPFLAGS += -std=c++11      #  Enable C++11. However, pthread, rtti and exce
 
 APP_STL := stlport_static
 #APP_STL := gnustl_static        # Instruct to use the static GNU STL implementation
+
+#LOCAL_C_INCLUDES += ${ANDROID_NDK}/sources/cxx-stl/gnu-libstdc++/4.8/include
 #LOCAL_C_INCLUDES += ${ANDROID_NDK}/sources/cxx-stl/gnu-libstdc++/4.9/include

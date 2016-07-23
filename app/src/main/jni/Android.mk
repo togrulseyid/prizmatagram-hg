@@ -29,4 +29,9 @@ LOCAL_CFLAGS += -fopenmp
 LOCAL_LDFLAGS += -fopenmp
 
 
+LOCAL_CPP_FEATURES := exceptions
+LOCAL_CPP_FEATURES := rtti features
+
+
+
 include $(BUILD_SHARED_LIBRARY)
