@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             Log.i(TAG, "OpenCV loaded was not successfully");
         }
         System.loadLibrary("PrizmaTagramN");
-        System.loadLibrary("opencv_java3");
+//        System.loadLibrary("opencv_.java3");
     }
 
     private BaseLoaderCallback mLoaderCallback = new BaseLoaderCallback(this) {
@@ -146,10 +146,10 @@ public class MainActivity extends AppCompatActivity {
 //            stack.add(R.drawable.togrul5);
 //            stack.add(R.drawable.togrul4);
 //            stack.add(R.drawable.togrul3);
-            stack.add(R.drawable.togrul2);
-            stack.add(R.drawable.togrul9);
+//            stack.add(R.drawable.togrul2);
+//            stack.add(R.drawable.togrul9);
 //            stack.add(R.drawable.pass_pic);
-//            stack.add(R.drawable.togrul1);
+            stack.add(R.drawable.togrul1);
             return true;
         } else if (id == R.id.action_next) {
             if (!stack.empty())

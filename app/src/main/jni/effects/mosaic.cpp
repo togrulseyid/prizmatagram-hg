@@ -13,12 +13,6 @@
 **********************************************************************************/
 #include <jni.h>
 #include "effects/mosaic.h"
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <opencv2/opencv.hpp>
-#include <numeric>
-#include <iomanip>
 
 
 /**

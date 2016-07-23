@@ -5,6 +5,7 @@
  *      Author: toghrul
  */
 
+
 #include "effects/dithering.h"
 
 const int DOT_AREA = 5;

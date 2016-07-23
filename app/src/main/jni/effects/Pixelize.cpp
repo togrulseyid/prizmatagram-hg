@@ -33,15 +33,15 @@ void Pixelize::process()
 
 	//LOGD("qaqa uzun oldu ee %d\n\n", (imgOut.size().height*imgOut.size().width/2*3));
 
-    #pragma omp parallel
-    {
+//    #pragma omp parallel
+//    {
 
-        int numThread = omp_get_num_threads();
+        //int numThread = omp_get_num_threads();
         //omp_set_num_threads(4);
 
-        LOGD("numThread=%d\n\n", numThread);
+       // LOGD("numThread=%d\n\n", numThread);
 
-        #pragma omp for
+      //  #pragma omp for
         for (int i = 0; i < imgOut.size().height; ++i) {
             for (int j = 0; j < imgOut.size().width/2*3; ++j) {
 
@@ -58,7 +58,7 @@ void Pixelize::process()
                 mat->at < cv::Vec3b > (i, j) = newColor;
             }
         }
-    }
+//    }
 
 	LOGD("qaqa uzun oldu ee %d %d ", imgOut.size().height, imgOut.size().width);
 

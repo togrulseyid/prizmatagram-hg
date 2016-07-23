@@ -8,7 +8,8 @@
 #ifndef MOSAIC_H_
 #define MOSAIC_H_
 
-#include <core/std_head.h>
+#include "core/std_head.h"
+
 cv::Mat mosaic(cv::Mat source, const int gridSize);
 
 #endif /* MOSAIC_H_ */

@@ -11,7 +11,7 @@
 //#include <effects/mosaic2.h>
 #include "effects/mosaic.h"
 #include "effects/Pixelize.h"
-#include "core/std_head.h"
+//#include "core/std_head.h"
 
 
 #ifdef __cplusplus

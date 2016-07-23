@@ -5,7 +5,7 @@
 #ifndef PRIZMA_TAGRAM_PIXELIZE_H
 #define PRIZMA_TAGRAM_PIXELIZE_H
 
-#include <core/std_head.h>
+#include "core/std_head.h"
 
 class Pixelize {
 

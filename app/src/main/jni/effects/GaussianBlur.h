@@ -5,7 +5,7 @@
 #ifndef PRIZMA_TAGRAM_GAUSSIANBLUR_H
 #define PRIZMA_TAGRAM_GAUSSIANBLUR_H
 
-#include <core/std_head.h>
+#include "core/std_head.h"
 
 class GaussianBlur  {
 

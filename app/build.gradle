@@ -1,96 +1,27 @@
-apply plugin: "com.android.model.application"
+apply plugin: 'com.android.application'
 
-model {
-    android {
-        compileSdkVersion 24
-        buildToolsVersion "24.0.1"
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.1"
 
-        ndk {
-            moduleName "PrizmaTagramN"
-            cppFlags.add("-I${file(getOpenCVDir())}".toString())
-//            cppFlags.add("-I${file("src/main/jniLibs/")}".toString())
-//            ldFlags.add("-L${file("src/main/jniLibs/")}".toString())
-            cppFlags.add("-I${file(getOpenCVDir())}".toString())
-            ldLibs.addAll(["android", "EGL", "GLESv2", "dl", "GLESv1_CM", "log", "z"])//, "OpenCL", "opencv_java3"])
-            cppFlags.addAll(["-fexceptions", "-exceptions", "-llog", "-ldl", "-frtti", "-pthread", "-fopenmp", "-std=c++11"])
-            abiFilters.addAll(['armeabi', 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'])
-
-            stl = "gnustl_shared" // Which STL library to use: gnustl or stlport
-//            stl = "gnustl_static"
-        }
-
-        defaultConfig {
-            applicationId "com.togrulseyid.prizmatagram"
-            minSdkVersion.apiLevel 8
-            targetSdkVersion.apiLevel 24
-            versionCode 1
-            versionName "1.0"
-
-            buildConfigFields {
-                create() {
-                    type "int"
-                    name "VALUE"
-                    value "1"
-                }
-            }
-        }
-        buildTypes {
-            release {
-                minifyEnabled false
-//                proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-                proguardFiles.add(file("proguard-rules.pro"))
-            }
-        }
-        productFlavors {
-            create("flavor1") {
-                applicationId "com.app"
-            }
-        }
-
-//        // Configures source set directory.
-//        sources {
-//            main {
-//                java {
-//                    source {
-//                        srcDir "src"
-//                    }
-//                }
-//                jni {
-//                    source {
-//                        srcDir "src"
-//                    }
-//                }
-//            }
-//        }
+    defaultConfig {
+        applicationId "com.togrulseyid.prizmatagram"
+        minSdkVersion 8
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
     }
-    android.productFlavors {
-        // for detailed abiFilter descriptions, refer to "Supported ABIs" @
-        // https://developer.android.com/ndk/guides/abis.html#sa
-        create("arm") {
-            ndk.abiFilters.add("armeabi")
-            ndk.ldFlags.add("-L${file('src/main/jniLibs/armeabi')}".toString())
-        }
-        create("arm7") {
-            ndk.abiFilters.add("armeabi-v7a")
-            ndk.ldFlags.add("-L${file('src/main/jniLibs/armeabi-v7a')}".toString())
-        }
-        create("arm8") {
-            ndk.abiFilters.add("arm64-v8a")
-            ndk.ldFlags.add("-L${file('src/main/jniLibs/arm64-v8a')}".toString())
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-}
 
-
-def getOpenCVDir() {
-    Properties properties = new Properties()
-    properties.load(new File(rootDir.absolutePath + "/local.properties").newDataInputStream())
-    def externalModuleDir = properties.getProperty('opencv.dir', null)
-    if (externalModuleDir == null) {
-        throw new GradleException(
-                "OpenCV location not found. Define location with opencv.dir in the local.properties file!")
+    sourceSets.main {
+        jniLibs.srcDir 'src/main/libs' //set libs as .so's location instead of jniLibs
+        jni.srcDirs = [] //disable automatic ndk-build call with auto-generated Android.mk
     }
-    return externalModuleDir
 }
 
 dependencies {

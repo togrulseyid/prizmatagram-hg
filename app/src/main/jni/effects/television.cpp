@@ -5,9 +5,7 @@
  *      Author: toghrul
  */
 
-
 #include "effects/television.h"
-
 
 void television(cv::Mat &matIn) {
 

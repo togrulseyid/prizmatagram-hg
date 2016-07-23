@@ -2,8 +2,7 @@
 // Created by toghrul on 17.07.2016.
 //
 
-
-#include "effects/GaussianBlur.h"
+#include <effects/GaussianBlur.h>
 
 #include <omp.h>
 
@@ -26,7 +25,7 @@ void GaussianBlur::process()
 {
 	cv::Mat imgOut = mat->clone();
 
-    cv::GaussianBlur(mat, imgOut, cv::Size(51,3), 80, 3);
+  //  cv::GaussianBlur(mat, imgOut, cv::Size(51,3), 80, 3);
 
 	imgOut.release();
 }
