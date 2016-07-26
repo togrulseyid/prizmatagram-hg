@@ -63,6 +63,14 @@ JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_nat
 JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_nativeTest
   (JNIEnv *, jclass, jlong);
 
+/*
+ * Class:     com_togrulseyid_prizmatagram_natives_NativeClass
+ * Method:    nativeOilPaint
+ * Signature: (J)V
+ */
+JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_nativeOilPaint
+  (JNIEnv *, jclass, jlong, jint, jint);
+
 #ifdef __cplusplus
 }
 #endif

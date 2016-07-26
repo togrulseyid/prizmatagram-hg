@@ -8,6 +8,11 @@
 #ifndef STD_HEAD_H_
 #define STD_HEAD_H_
 
+
+
+
+
+
 #include <stdlib.h>
 #include <string.h>
 #include <sys/types.h>
@@ -19,12 +24,22 @@
 #include <omp.h>
 #include <android/log.h>
 #include <iostream>
+#include <fstream>
+#include <ctype.h>
 #include <vector>
 #include <algorithm>
 #include <opencv2/opencv.hpp>
 #include <numeric>
 #include <iomanip>
 #include <stdint.h>
+
+
+#include "opencv2/imgproc/imgproc.hpp"
+#include "opencv2/videoio/videoio.hpp"
+#include "opencv2/highgui/highgui.hpp"
+#include "opencv2/highgui.hpp"
+
+
 /*
 #include <opencv2/opencv.hpp>
 #include <opencv2/objdetect/objdetect.hpp>

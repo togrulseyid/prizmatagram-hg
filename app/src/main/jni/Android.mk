@@ -17,7 +17,10 @@ LOCAL_SRC_FILES := NativeClass.cpp \
                     effects/mosaic.cpp \
                     effects/mosaic2.cpp \
                     effects/Pixelize.cpp \
+                    effects/ParallelInPaint.cpp \
+                    effects/Kaleidoscope.cpp \
                     effects/television.cpp \
+
 
 #LOCAL_C_INCLUDES += $(LOCAL_PATH)
 LOCAL_LDLIBS += -lm -llog -lc -ldl -lz -landroid

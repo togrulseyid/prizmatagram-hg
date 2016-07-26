@@ -19,4 +19,6 @@ public class NativeClass {
     public native static void nativePixelize(long address);
 
     public native static void nativeTest(long address);
+
+    public native static void nativeOilPaint(long address, int intensity, int radius);
 }
