@@ -18,7 +18,6 @@ Pixelize::~Pixelize()
     //matObj.release();
 }
 
-
 void Pixelize::process()
 {
 	cv::Mat imgOut = mat->clone();

@@ -11,8 +11,9 @@
 //#include <effects/mosaic2.h>
 #include "effects/mosaic.h"
 #include "effects/Pixelize.h"
-//#include "core/std_head.h"
-
+#include "effects/ParallelInPaint.cpp"
+#include "effects/Kaleidoscope.h"
+#include "effects/PencilSketch.cpp"
 
 #ifdef __cplusplus
 extern "C" {
@@ -100,8 +101,70 @@ JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_nat
 JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_nativePixelize(JNIEnv* env, jclass obj, jlong mat_adress)
 {
     cv::Mat& mat = *((cv::Mat*)mat_adress);
-    nativeTelevision(mat);
+    //nativeTelevision(mat);
+
+    //Pixelize pixelize(&mat);
+    Pixelize pixelize(&mat, 40);
+    pixelize.process();
+
 }
+
+/*
+ * Class:     com_togrulseyid_test_NativeClass
+ * Method:    nativeOilPaint
+ * Signature: (J)V
+ */
+JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_nativeOilPaint(JNIEnv* env, jclass obj, jlong mat_adress, jint intensity, jint radius)
+{
+    cv::Mat& im = *((cv::Mat*)mat_adress);
+    Mat  intensityLUT(im.rows,im.cols,CV_8UC1);
+    Mat  rgbLUT(im.rows,im.cols,CV_8UC3);
+    Mat dst(im.rows,im.cols,CV_8UC3);
+    //int intensity = 20;
+    //int radius = 5;
+
+//    while (true)
+//    {
+        //v>>im;
+        cvtColor(im, intensityLUT, CV_RGB2GRAY);
+        intensityLUT = intensityLUT *(intensity/255.);
+
+        ParallelInPaint x(im, dst, intensityLUT, radius);
+        parallel_for_( Range(0, im.rows), x, getNumThreads());
+
+        im = dst;
+        //imshow("Result", dst);
+        /*
+        char c= waitKey(1);
+        switch (c){
+        case 'I':
+            intensity++;
+            if (intensity>255)
+                intensity=255;
+            break;
+        case 'i':
+            intensity--;
+            if (intensity==0)
+                intensity=1;
+        case 'R':
+            radius++;
+            if (radius>255)
+                radius=255;
+            break;
+        case 'r':
+            radius--;
+            if (radius==-1)
+                radius=0;
+        }
+        if (c>32)
+            cout << "Intensity =" << intensity << "\tradius = " << radius << "\n";
+            */
+//    }
+
+}
+
+
+
 
 /*
  * Class:     com_togrulseyid_test_NativeClass
@@ -115,17 +178,30 @@ JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_nat
     //toGrayscale(mat);
     //nativeTelevision(mat);
 
-    //Pixelize pixelize(&mat);
-    Pixelize pixelize(&mat, 40);
-    pixelize.process();
+ //   Kaleidoscope kaleidoscope(&mat);
+ //   kaleidoscope.process();
 
-    //NativeLog
 
-  //  LOGE("Salam");
-  //  LOGW("Salam");
-  //  LOGI("Salam");
-  //  LOGD("Salam");
+    // Set to true if you want to see line drawings instead of paintings.
+    bool m_sketchMode = false;
+    // Set to true if you want to change the skin color of the character to an alien color.
+    bool m_alienMode = false;
+    // Set to true if you want an evil "bad" character instead of a "good" character.
+    bool m_evilMode = false;
+
+    int debugType = 0;
+
+
+    Mat cameraFrame = mat;
+
+    Mat displayedFrame = Mat(cameraFrame.size(), CV_8UC3);
+    // Run the cartoonifier filter using the selected mode.
+    cartoonifyImage(cameraFrame, displayedFrame, m_sketchMode, m_alienMode, m_evilMode, debugType);
+
+    mat = displayedFrame;
 }
+
+
 
 #ifdef __cplusplus
 }
