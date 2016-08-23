@@ -10,9 +10,18 @@ import java.io.Serializable;
  */
 public class FilterModel implements Serializable {
     private Bitmap bitmap;
+    private Bitmap currentBitmap;
     private String source;
 
     public FilterModel() {
+    }
+
+    public Bitmap getCurrentBitmap() {
+        return currentBitmap;
+    }
+
+    public void setCurrentBitmap(Bitmap currentBitmap) {
+        this.currentBitmap = currentBitmap;
     }
 
     public FilterModel(String source) {
