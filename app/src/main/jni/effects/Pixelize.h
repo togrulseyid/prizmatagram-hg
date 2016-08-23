@@ -12,16 +12,13 @@ class Pixelize {
     public:
       // This means that all of the functions below this(and any variables)
       //  are accessible to the rest of the program.
-        //Pixelize(cv::Mat *_mat);  // Constructor
-
-
         Pixelize(cv::Mat *m, int size):
-        mat(m), wavelength(size){}
-
+        mat(m), cols(size){}
 
         ~Pixelize();  // Destructor
 
         void process();
+        cv::Mat pixelate(IplImage* &img, int size);
 
     protected:
           // This means that all the variables under this, until a new type of restriction
@@ -30,9 +27,7 @@ class Pixelize {
 
     private :
         cv::Mat *mat;
-        double wavelength = 40;
-        double intensity = 0.5;
-        double decolorisation = 0.7;
+        int cols = 5;
 
 };
 

@@ -20,6 +20,9 @@ LOCAL_SRC_FILES := NativeClass.cpp \
                     effects/ParallelInPaint.cpp \
                     effects/Kaleidoscope.cpp \
                     effects/television.cpp \
+                    effects/FishEye.cpp \
+                    effects/Pixelate.cpp
+
 
 
 #LOCAL_C_INCLUDES += $(LOCAL_PATH)

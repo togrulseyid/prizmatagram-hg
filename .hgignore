@@ -6,3 +6,4 @@ build/
 app/src/main/libs/
 app/src/main/obj/
 trash/
+NativeFiltersLibrary/src/main/obj/

@@ -4,34 +4,34 @@
     android:id="@+id/effects_holder"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:clickable="true"
     android:layout_alignParentBottom="true"
     android:layout_alignParentLeft="true"
     android:background="#99000000"
-    android:paddingTop="3dp" >
+    android:clickable="true"
+    android:paddingTop="3dp">
 
     <HorizontalScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scrollbars="none"
-        tools:ignore="UselessParent" >
+        tools:ignore="UselessParent">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:baselineAligned="false"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
                 android:gravity="center"
                 android:onClick="onClickEffectButton"
-                android:layout_marginRight="5dp"
-                android:tag="NATIVE_TEST" >
+                android:tag="NATIVE_TEST">
 
                 <ImageView
-                    android:id="@+id/filter_effect_2"
+                    android:id="@+id/filter_effect_0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
@@ -41,7 +41,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/filter_effect_2"
+                    android:layout_below="@+id/filter_effect_0"
                     android:layout_centerHorizontal="true"
                     android:gravity="center"
                     android:paddingBottom="5dp"
@@ -56,41 +56,10 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
                 android:gravity="center"
                 android:onClick="onClickEffectButton"
-                android:layout_marginRight="5dp"
-                android:tag="NATIVE_FUNCTION" >
-
-                <ImageView
-                    android:id="@+id/filter_effect_14"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:contentDescription="@string/app_name"
-                    android:src="@drawable/ic_effect_boost" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/filter_effect_14"
-                    android:layout_centerHorizontal="true"
-                    android:gravity="center"
-                    android:paddingBottom="5dp"
-                    android:paddingLeft="5dp"
-                    android:paddingRight="5dp"
-                    android:singleLine="true"
-                    android:text="@string/effect14"
-                    android:textColor="#ffffff"
-                    android:textSize="16sp" />
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:onClick="onClickEffectButton"
-                android:layout_marginRight="5dp"
-                android:tag="NATIVE_DITHERING" >
+                android:tag="NATIVE_FUNCTION">
 
                 <ImageView
                     android:id="@+id/filter_effect_1"
@@ -98,7 +67,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:contentDescription="@string/app_name"
-                    android:src="@drawable/ic_effect_brightness" />
+                    android:src="@drawable/ic_effect_boost" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -118,10 +87,323 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
                 android:gravity="center"
                 android:onClick="onClickEffectButton"
+                android:tag="NATIVE_DITHERING">
+
+                <ImageView
+                    android:id="@+id/filter_effect_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_effect_brightness" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/filter_effect_2"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:text="@string/effect2"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
-                android:tag="NATIVE_MOSAIC" >
+                android:gravity="center"
+                android:onClick="onClickEffectButton"
+                android:tag="NATIVE_MOSAIC">
+
+                <ImageView
+                    android:id="@+id/filter_effect_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_effect_colordepth" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/filter_effect_3"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:text="@string/effect3"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:onClick="onClickEffectButton"
+                android:tag="NATIVE_TELEVISION">
+
+                <ImageView
+                    android:id="@+id/filter_effect_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_effect_colorbalance" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/filter_effect_4"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:text="@string/effect4"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:onClick="onClickEffectButton"
+                android:tag="NATIVE_PIXELIZE">
+
+                <ImageView
+                    android:id="@+id/filter_effect_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_effect_contrast" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/filter_effect_5"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:text="@string/effect5"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:onClick="onClickEffectButton"
+                android:tag="NATIVE_OIL_PAINT">
+
+                <ImageView
+                    android:id="@+id/filter_effect_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_effect_emboss" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/filter_effect_6"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:text="@string/effect6"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:onClick="onClickEffectButton"
+                android:tag="WATER_FILTER">
+
+                <ImageView
+                    android:id="@+id/filter_effect_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_effect_emboss" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/filter_effect_7"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:text="@string/effect7"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:onClick="onClickEffectButton"
+                android:tag="NATIVE_FISH_EYE">
+
+                <ImageView
+                    android:id="@+id/filter_effect_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_effect_vignette" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/filter_effect_8"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:text="@string/effect8"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:onClick="onClickEffectButton"
+                android:tag="NATIVE_PIXELATE">
+
+                <ImageView
+                    android:id="@+id/filter_effect_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_effect_vignette" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/filter_effect_9"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:text="@string/effect9"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:onClick="onClickEffectButton"
+                android:tag="NATIVE_FLIP">
+
+                <ImageView
+                    android:id="@+id/filter_effect_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_effect_flip" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/filter_effect_10"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:text="@string/effect10"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:onClick="onClickEffectButton"
+                android:tag="NATIVE_MIRROR">
+
+                <ImageView
+                    android:id="@+id/filter_effect_11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_effect_invert" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/filter_effect_11"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:text="@string/effect11"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+
+            <!--// BURDAN SONRAKI LIBRARY-dandi -->
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:onClick="onClickEffectButton"
+                android:tag="GRAY_STYLE">
 
                 <ImageView
                     android:id="@+id/filter_effect_12"
@@ -129,7 +411,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:contentDescription="@string/app_name"
-                    android:src="@drawable/ic_effect_colordepth" />
+                    android:src="@drawable/ic_effect_invert" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -149,30 +431,30 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
                 android:gravity="center"
                 android:onClick="onClickEffectButton"
-                android:layout_marginRight="5dp"
-                android:tag="NATIVE_TELEVISION" >
+                android:tag="RELIEF_STYLE">
 
                 <ImageView
-                    android:id="@+id/filter_effect_11"
+                    android:id="@+id/filter_effect_13"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:contentDescription="@string/app_name"
-                    android:src="@drawable/ic_effect_colorbalance" />
+                    android:src="@drawable/ic_effect_invert" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/filter_effect_11"
+                    android:layout_below="@+id/filter_effect_13"
                     android:layout_centerHorizontal="true"
                     android:gravity="center"
                     android:paddingBottom="5dp"
                     android:paddingLeft="5dp"
                     android:paddingRight="5dp"
                     android:singleLine="true"
-                    android:text="@string/effect11"
+                    android:text="@string/effect13"
                     android:textColor="#ffffff"
                     android:textSize="16sp" />
             </RelativeLayout>
@@ -180,10 +462,165 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
                 android:gravity="center"
                 android:onClick="onClickEffectButton"
+                android:tag="AVERAGE_BLUR_STYLE">
+
+                <ImageView
+                    android:id="@+id/filter_effect_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_effect_invert" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/filter_effect_14"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:text="@string/effect14"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
-                android:tag="NATIVE_PIXELIZE" >
+                android:gravity="center"
+                android:onClick="onClickEffectButton"
+                android:tag="OIL_STYLE">
+
+                <ImageView
+                    android:id="@+id/filter_effect_15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_effect_invert" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/filter_effect_15"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:text="@string/effect15"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:onClick="onClickEffectButton"
+                android:tag="NEON_STYLE">
+
+                <ImageView
+                    android:id="@+id/filter_effect_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_effect_invert" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/filter_effect_16"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:text="@string/effect16"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:onClick="onClickEffectButton"
+                android:tag="PIXELATE_STYLE">
+
+                <ImageView
+                    android:id="@+id/filter_effect_17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_effect_invert" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/filter_effect_17"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:text="@string/effect17"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:onClick="onClickEffectButton"
+                android:tag="TV_STYLE">
+
+                <ImageView
+                    android:id="@+id/filter_effect_18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_effect_invert" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/filter_effect_18"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:text="@string/effect18"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:onClick="onClickEffectButton"
+                android:tag="INVERT_STYLE">
 
                 <ImageView
                     android:id="@+id/filter_effect_19"
@@ -191,7 +628,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:contentDescription="@string/app_name"
-                    android:src="@drawable/ic_effect_contrast" />
+                    android:src="@drawable/ic_effect_invert" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -211,408 +648,718 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
                 android:gravity="center"
                 android:onClick="onClickEffectButton"
-                android:layout_marginRight="5dp"
-                android:tag="NATIVE_OIL_PAINT" >
+                android:tag="BLOCK_STYLE">
 
                 <ImageView
-                    android:id="@+id/filter_effect_13"
+                    android:id="@+id/filter_effect_20"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:contentDescription="@string/app_name"
-                    android:src="@drawable/ic_effect_emboss" />
+                    android:src="@drawable/ic_effect_invert" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/filter_effect_13"
+                    android:layout_below="@+id/filter_effect_20"
                     android:layout_centerHorizontal="true"
                     android:gravity="center"
                     android:paddingBottom="5dp"
                     android:paddingLeft="5dp"
                     android:paddingRight="5dp"
                     android:singleLine="true"
-                    android:text="@string/effect13"
+                    android:text="@string/effect20"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:onClick="onClickEffectButton"
+                android:tag="OLD_STYLE">
+
+                <ImageView
+                    android:id="@+id/filter_effect_21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_effect_invert" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/filter_effect_21"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:text="@string/effect21"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:onClick="onClickEffectButton"
+                android:tag="SHARPEN_STYLE">
+
+                <ImageView
+                    android:id="@+id/filter_effect_22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_effect_invert" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/filter_effect_22"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:text="@string/effect22"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:onClick="onClickEffectButton"
+                android:tag="LIGHT_STYLE">
+
+                <ImageView
+                    android:id="@+id/filter_effect_23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_effect_invert" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/filter_effect_23"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:text="@string/effect23"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:onClick="onClickEffectButton"
+                android:tag="LOMO_STYLE">
+
+                <ImageView
+                    android:id="@+id/filter_effect_24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_effect_invert" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/filter_effect_24"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:text="@string/effect24"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:onClick="onClickEffectButton"
+                android:tag="HDR_STYLE">
+
+                <ImageView
+                    android:id="@+id/filter_effect_25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_effect_invert" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/filter_effect_25"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:text="@string/effect25"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:onClick="onClickEffectButton"
+                android:tag="GAUSSIAN_BLUR_STYLE">
+
+                <ImageView
+                    android:id="@+id/filter_effect_26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_effect_invert" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/filter_effect_26"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:text="@string/effect26"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:onClick="onClickEffectButton"
+                android:tag="SOFT_GLOW_STYLE">
+
+                <ImageView
+                    android:id="@+id/filter_effect_27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_effect_invert" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/filter_effect_27"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:text="@string/effect27"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:onClick="onClickEffectButton"
+                android:tag="SKETCH_STYLE">
+
+                <ImageView
+                    android:id="@+id/filter_effect_28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_effect_invert" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/filter_effect_28"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:text="@string/effect28"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:onClick="onClickEffectButton"
+                android:tag="MOTION_BLUR_STYLE">
+
+                <ImageView
+                    android:id="@+id/filter_effect_29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_effect_invert" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/filter_effect_29"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:text="@string/effect29"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:onClick="onClickEffectButton"
+                android:tag="GOTHAM_STYLE">
+
+                <ImageView
+                    android:id="@+id/filter_effect_30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_effect_invert" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/filter_effect_30"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:text="@string/effect30"
                     android:textColor="#ffffff"
                     android:textSize="16sp" />
             </RelativeLayout>
 
 
-
             <!--<RelativeLayout-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:gravity="center"-->
-                <!--android:onClick="onClickEffectButton"-->
-                <!--android:layout_marginRight="5dp"-->
-                <!--android:tag="gamma" >-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:onClick="onClickEffectButton"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:tag="gamma" >-->
 
-                <!--<ImageView-->
-                    <!--android:id="@+id/filter_effect_5"-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_centerHorizontal="true"-->
-                    <!--android:contentDescription="@string/app_name"-->
-                    <!--android:src="@drawable/ic_effect_gamma" />-->
+            <!--<ImageView-->
+            <!--android:id="@+id/filter_effect_5"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:contentDescription="@string/app_name"-->
+            <!--android:src="@drawable/ic_effect_gamma" />-->
 
-                <!--<TextView-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_below="@+id/filter_effect_5"-->
-                    <!--android:layout_centerHorizontal="true"-->
-                    <!--android:gravity="center"-->
-                    <!--android:paddingBottom="5dp"-->
-                    <!--android:paddingLeft="5dp"-->
-                    <!--android:paddingRight="5dp"-->
-                    <!--android:singleLine="true"-->
-                    <!--android:text="@string/effect5"-->
-                    <!--android:textColor="#ffffff"-->
-                    <!--android:textSize="16sp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/filter_effect_5"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:gravity="center"-->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:paddingLeft="5dp"-->
+            <!--android:paddingRight="5dp"-->
+            <!--android:singleLine="true"-->
+            <!--android:text="@string/effect5"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textSize="16sp" />-->
             <!--</RelativeLayout>-->
 
             <!--<RelativeLayout-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:gravity="center"-->
-                <!--android:onClick="onClickEffectButton"-->
-                <!--android:layout_marginRight="5dp"-->
-                <!--android:tag="gaussian" >-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:onClick="onClickEffectButton"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:tag="gaussian" >-->
 
-                <!--<ImageView-->
-                    <!--android:id="@+id/filter_effect_10"-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_centerHorizontal="true"-->
-                    <!--android:contentDescription="@string/app_name"-->
-                    <!--android:src="@drawable/ic_effect_gaussian" />-->
+            <!--<ImageView-->
+            <!--android:id="@+id/filter_effect_10"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:contentDescription="@string/app_name"-->
+            <!--android:src="@drawable/ic_effect_gaussian" />-->
 
-                <!--<TextView-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_below="@+id/filter_effect_10"-->
-                    <!--android:layout_centerHorizontal="true"-->
-                    <!--android:gravity="center"-->
-                    <!--android:paddingBottom="5dp"-->
-                    <!--android:paddingLeft="5dp"-->
-                    <!--android:paddingRight="5dp"-->
-                    <!--android:singleLine="true"-->
-                    <!--android:text="@string/effect10"-->
-                    <!--android:textColor="#ffffff"-->
-                    <!--android:textSize="16sp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/filter_effect_10"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:gravity="center"-->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:paddingLeft="5dp"-->
+            <!--android:paddingRight="5dp"-->
+            <!--android:singleLine="true"-->
+            <!--android:text="@string/effect10"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textSize="16sp" />-->
             <!--</RelativeLayout>-->
 
             <!--<RelativeLayout-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:gravity="center"-->
-                <!--android:onClick="onClickEffectButton"-->
-                <!--android:layout_marginRight="5dp"-->
-                <!--android:tag="grayscale" >-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:onClick="onClickEffectButton"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:tag="grayscale" >-->
 
-                <!--<ImageView-->
-                    <!--android:id="@+id/filter_effect_7"-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_centerHorizontal="true"-->
-                    <!--android:contentDescription="@string/app_name"-->
-                    <!--android:src="@drawable/ic_effect_grayscale" />-->
+            <!--<ImageView-->
+            <!--android:id="@+id/filter_effect_7"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:contentDescription="@string/app_name"-->
+            <!--android:src="@drawable/ic_effect_grayscale" />-->
 
-                <!--<TextView-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_below="@+id/filter_effect_7"-->
-                    <!--android:layout_centerHorizontal="true"-->
-                    <!--android:gravity="center"-->
-                    <!--android:paddingBottom="5dp"-->
-                    <!--android:paddingLeft="5dp"-->
-                    <!--android:paddingRight="5dp"-->
-                    <!--android:singleLine="true"-->
-                    <!--android:text="@string/effect7"-->
-                    <!--android:textColor="#ffffff"-->
-                    <!--android:textSize="16sp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/filter_effect_7"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:gravity="center"-->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:paddingLeft="5dp"-->
+            <!--android:paddingRight="5dp"-->
+            <!--android:singleLine="true"-->
+            <!--android:text="@string/effect7"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textSize="16sp" />-->
             <!--</RelativeLayout>-->
 
             <!--<RelativeLayout-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:gravity="center"-->
-                <!--android:onClick="onClickEffectButton"-->
-                <!--android:layout_marginRight="5dp"-->
-                <!--android:tag="hue" >-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:onClick="onClickEffectButton"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:tag="hue" >-->
 
-                <!--<ImageView-->
-                    <!--android:id="@+id/filter_effect_3"-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_centerHorizontal="true"-->
-                    <!--android:contentDescription="@string/app_name"-->
-                    <!--android:src="@drawable/ic_effect_hue" />-->
+            <!--<ImageView-->
+            <!--android:id="@+id/filter_effect_3"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:contentDescription="@string/app_name"-->
+            <!--android:src="@drawable/ic_effect_hue" />-->
 
-                <!--<TextView-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_below="@+id/filter_effect_3"-->
-                    <!--android:layout_centerHorizontal="true"-->
-                    <!--android:gravity="center"-->
-                    <!--android:paddingBottom="5dp"-->
-                    <!--android:paddingLeft="5dp"-->
-                    <!--android:paddingRight="5dp"-->
-                    <!--android:singleLine="true"-->
-                    <!--android:text="@string/effect3"-->
-                    <!--android:textColor="#ffffff"-->
-                    <!--android:textSize="16sp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/filter_effect_3"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:gravity="center"-->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:paddingLeft="5dp"-->
+            <!--android:paddingRight="5dp"-->
+            <!--android:singleLine="true"-->
+            <!--android:text="@string/effect3"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textSize="16sp" />-->
             <!--</RelativeLayout>-->
 
             <!--<RelativeLayout-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:gravity="center"-->
-                <!--android:onClick="onClickEffectButton"-->
-                <!--android:layout_marginRight="5dp"-->
-                <!--android:tag="invert" >-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:onClick="onClickEffectButton"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:tag="invert" >-->
 
-                <!--<ImageView-->
-                    <!--android:id="@+id/filter_effect_6"-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_centerHorizontal="true"-->
-                    <!--android:contentDescription="@string/app_name"-->
-                    <!--android:src="@drawable/ic_effect_invert" />-->
+            <!--<ImageView-->
+            <!--android:id="@+id/filter_effect_6"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:contentDescription="@string/app_name"-->
+            <!--android:src="@drawable/ic_effect_invert" />-->
 
-                <!--<TextView-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_below="@+id/filter_effect_6"-->
-                    <!--android:layout_centerHorizontal="true"-->
-                    <!--android:gravity="center"-->
-                    <!--android:paddingBottom="5dp"-->
-                    <!--android:paddingLeft="5dp"-->
-                    <!--android:paddingRight="5dp"-->
-                    <!--android:singleLine="true"-->
-                    <!--android:text="@string/effect6"-->
-                    <!--android:textColor="#ffffff"-->
-                    <!--android:textSize="16sp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/filter_effect_6"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:gravity="center"-->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:paddingLeft="5dp"-->
+            <!--android:paddingRight="5dp"-->
+            <!--android:singleLine="true"-->
+            <!--android:text="@string/effect6"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textSize="16sp" />-->
             <!--</RelativeLayout>-->
 
             <!--<RelativeLayout-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:gravity="center"-->
-                <!--android:onClick="onClickEffectButton"-->
-                <!--android:layout_marginRight="5dp"-->
-                <!--android:tag="noise" >-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:onClick="onClickEffectButton"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:tag="noise" >-->
 
-                <!--<ImageView-->
-                    <!--android:id="@+id/filter_effect_15"-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_centerHorizontal="true"-->
-                    <!--android:contentDescription="@string/app_name"-->
-                    <!--android:src="@drawable/ic_effect_noise" />-->
+            <!--<ImageView-->
+            <!--android:id="@+id/filter_effect_15"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:contentDescription="@string/app_name"-->
+            <!--android:src="@drawable/ic_effect_noise" />-->
 
-                <!--<TextView-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_below="@+id/filter_effect_15"-->
-                    <!--android:layout_centerHorizontal="true"-->
-                    <!--android:gravity="center"-->
-                    <!--android:paddingBottom="5dp"-->
-                    <!--android:paddingLeft="5dp"-->
-                    <!--android:paddingRight="5dp"-->
-                    <!--android:singleLine="true"-->
-                    <!--android:text="@string/effect15"-->
-                    <!--android:textColor="#ffffff"-->
-                    <!--android:textSize="16sp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/filter_effect_15"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:gravity="center"-->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:paddingLeft="5dp"-->
+            <!--android:paddingRight="5dp"-->
+            <!--android:singleLine="true"-->
+            <!--android:text="@string/effect15"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textSize="16sp" />-->
             <!--</RelativeLayout>-->
 
             <!--<RelativeLayout-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:gravity="center"-->
-                <!--android:onClick="onClickEffectButton"-->
-                <!--android:layout_marginRight="5dp"-->
-                <!--android:tag="saturation" >-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:onClick="onClickEffectButton"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:tag="saturation" >-->
 
-                <!--<ImageView-->
-                    <!--android:id="@+id/filter_effect_18"-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_centerHorizontal="true"-->
-                    <!--android:contentDescription="@string/app_name"-->
-                    <!--android:src="@drawable/ic_effect_saturation" />-->
+            <!--<ImageView-->
+            <!--android:id="@+id/filter_effect_18"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:contentDescription="@string/app_name"-->
+            <!--android:src="@drawable/ic_effect_saturation" />-->
 
-                <!--<TextView-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_below="@+id/filter_effect_18"-->
-                    <!--android:layout_centerHorizontal="true"-->
-                    <!--android:gravity="center"-->
-                    <!--android:paddingBottom="5dp"-->
-                    <!--android:paddingLeft="5dp"-->
-                    <!--android:paddingRight="5dp"-->
-                    <!--android:singleLine="true"-->
-                    <!--android:text="@string/effect18"-->
-                    <!--android:textColor="#ffffff"-->
-                    <!--android:textSize="16sp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/filter_effect_18"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:gravity="center"-->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:paddingLeft="5dp"-->
+            <!--android:paddingRight="5dp"-->
+            <!--android:singleLine="true"-->
+            <!--android:text="@string/effect18"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textSize="16sp" />-->
             <!--</RelativeLayout>-->
 
             <!--<RelativeLayout-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:gravity="center"-->
-                <!--android:onClick="onClickEffectButton"-->
-                <!--android:layout_marginRight="5dp"-->
-                <!--android:tag="sepia" >-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:onClick="onClickEffectButton"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:tag="sepia" >-->
 
-                <!--<ImageView-->
-                    <!--android:id="@+id/filter_effect_8"-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_centerHorizontal="true"-->
-                    <!--android:contentDescription="@string/app_name"-->
-                    <!--android:src="@drawable/ic_effect_sepia" />-->
+            <!--<ImageView-->
+            <!--android:id="@+id/filter_effect_8"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:contentDescription="@string/app_name"-->
+            <!--android:src="@drawable/ic_effect_sepia" />-->
 
-                <!--<TextView-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_below="@+id/filter_effect_8"-->
-                    <!--android:layout_centerHorizontal="true"-->
-                    <!--android:gravity="center"-->
-                    <!--android:paddingBottom="5dp"-->
-                    <!--android:paddingLeft="5dp"-->
-                    <!--android:paddingRight="5dp"-->
-                    <!--android:singleLine="true"-->
-                    <!--android:text="@string/effect8"-->
-                    <!--android:textColor="#ffffff"-->
-                    <!--android:textSize="16sp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/filter_effect_8"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:gravity="center"-->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:paddingLeft="5dp"-->
+            <!--android:paddingRight="5dp"-->
+            <!--android:singleLine="true"-->
+            <!--android:text="@string/effect8"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textSize="16sp" />-->
             <!--</RelativeLayout>-->
 
             <!--<RelativeLayout-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:gravity="center"-->
-                <!--android:onClick="onClickEffectButton"-->
-                <!--android:layout_marginRight="5dp"-->
-                <!--android:tag="sharpen" >-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:onClick="onClickEffectButton"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:tag="sharpen" >-->
 
-                <!--<ImageView-->
-                    <!--android:id="@+id/filter_effect_9"-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_centerHorizontal="true"-->
-                    <!--android:contentDescription="@string/app_name"-->
-                    <!--android:src="@drawable/ic_effect_sharpen" />-->
+            <!--<ImageView-->
+            <!--android:id="@+id/filter_effect_9"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:contentDescription="@string/app_name"-->
+            <!--android:src="@drawable/ic_effect_sharpen" />-->
 
-                <!--<TextView-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_below="@+id/filter_effect_9"-->
-                    <!--android:layout_centerHorizontal="true"-->
-                    <!--android:gravity="center"-->
-                    <!--android:paddingBottom="5dp"-->
-                    <!--android:paddingLeft="5dp"-->
-                    <!--android:paddingRight="5dp"-->
-                    <!--android:singleLine="true"-->
-                    <!--android:text="@string/effect9"-->
-                    <!--android:textColor="#ffffff"-->
-                    <!--android:textSize="16sp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/filter_effect_9"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:gravity="center"-->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:paddingLeft="5dp"-->
+            <!--android:paddingRight="5dp"-->
+            <!--android:singleLine="true"-->
+            <!--android:text="@string/effect9"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textSize="16sp" />-->
             <!--</RelativeLayout>-->
 
             <!--<RelativeLayout-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:gravity="center"-->
-                <!--android:onClick="onClickEffectButton"-->
-                <!--android:layout_marginRight="5dp"-->
-                <!--android:tag="sketch" >-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:onClick="onClickEffectButton"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:tag="sketch" >-->
 
-                <!--<ImageView-->
-                    <!--android:id="@+id/filter_effect_16"-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_centerHorizontal="true"-->
-                    <!--android:contentDescription="@string/app_name"-->
-                    <!--android:src="@drawable/ic_effect_sketch" />-->
+            <!--<ImageView-->
+            <!--android:id="@+id/filter_effect_16"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:contentDescription="@string/app_name"-->
+            <!--android:src="@drawable/ic_effect_sketch" />-->
 
-                <!--<TextView-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_below="@+id/filter_effect_16"-->
-                    <!--android:layout_centerHorizontal="true"-->
-                    <!--android:gravity="center"-->
-                    <!--android:paddingBottom="5dp"-->
-                    <!--android:paddingLeft="5dp"-->
-                    <!--android:paddingRight="5dp"-->
-                    <!--android:singleLine="true"-->
-                    <!--android:text="@string/effect16"-->
-                    <!--android:textColor="#ffffff"-->
-                    <!--android:textSize="16sp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/filter_effect_16"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:gravity="center"-->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:paddingLeft="5dp"-->
+            <!--android:paddingRight="5dp"-->
+            <!--android:singleLine="true"-->
+            <!--android:text="@string/effect16"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textSize="16sp" />-->
             <!--</RelativeLayout>-->
 
             <!--<RelativeLayout-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:gravity="center"-->
-                <!--android:onClick="onClickEffectButton"-->
-                <!--android:layout_marginRight="5dp"-->
-                <!--android:tag="tint" >-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:onClick="onClickEffectButton"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:tag="tint" >-->
 
-                <!--<ImageView-->
-                    <!--android:id="@+id/filter_effect_4"-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_centerHorizontal="true"-->
-                    <!--android:contentDescription="@string/app_name"-->
-                    <!--android:src="@drawable/ic_effect_tint" />-->
+            <!--<ImageView-->
+            <!--android:id="@+id/filter_effect_4"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:contentDescription="@string/app_name"-->
+            <!--android:src="@drawable/ic_effect_tint" />-->
 
-                <!--<TextView-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_below="@+id/filter_effect_4"-->
-                    <!--android:layout_centerHorizontal="true"-->
-                    <!--android:gravity="center"-->
-                    <!--android:paddingBottom="5dp"-->
-                    <!--android:paddingLeft="5dp"-->
-                    <!--android:paddingRight="5dp"-->
-                    <!--android:singleLine="true"-->
-                    <!--android:text="@string/effect4"-->
-                    <!--android:textColor="#ffffff"-->
-                    <!--android:textSize="16sp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/filter_effect_4"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:gravity="center"-->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:paddingLeft="5dp"-->
+            <!--android:paddingRight="5dp"-->
+            <!--android:singleLine="true"-->
+            <!--android:text="@string/effect4"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textSize="16sp" />-->
             <!--</RelativeLayout>-->
 
             <!--<RelativeLayout-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:gravity="center"-->
-                <!--android:onClick="onClickEffectButton"-->
-                <!--android:tag="vignette" >-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:onClick="onClickEffectButton"-->
+            <!--android:tag="vignette" >-->
 
-                <!--<ImageView-->
-                    <!--android:id="@+id/filter_effect_17"-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_centerHorizontal="true"-->
-                    <!--android:contentDescription="@string/app_name"-->
-                    <!--android:src="@drawable/ic_effect_vignette" />-->
+            <!--<ImageView-->
+            <!--android:id="@+id/filter_effect_17"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:contentDescription="@string/app_name"-->
+            <!--android:src="@drawable/ic_effect_vignette" />-->
 
-                <!--<TextView-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_below="@+id/filter_effect_17"-->
-                    <!--android:layout_centerHorizontal="true"-->
-                    <!--android:gravity="center"-->
-                    <!--android:paddingBottom="5dp"-->
-                    <!--android:paddingLeft="5dp"-->
-                    <!--android:paddingRight="5dp"-->
-                    <!--android:singleLine="true"-->
-                    <!--android:text="@string/effect17"-->
-                    <!--android:textColor="#ffffff"-->
-                    <!--android:textSize="16sp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/filter_effect_17"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:gravity="center"-->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:paddingLeft="5dp"-->
+            <!--android:paddingRight="5dp"-->
+            <!--android:singleLine="true"-->
+            <!--android:text="@string/effect17"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textSize="16sp" />-->
             <!--</RelativeLayout>-->
 
         </LinearLayout>
+
     </HorizontalScrollView>
 
 </LinearLayout>

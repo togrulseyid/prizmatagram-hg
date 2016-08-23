@@ -53,6 +53,62 @@ JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_nat
  * Signature: (J)V
  */
 JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_nativePixelize
+  (JNIEnv *, jclass, jlong, jint);
+
+/*
+ * Class:     com_togrulseyid_prizmatagram_natives_NativeClass
+ * Method:    nativePixelate
+ * Signature: (J)V
+ */
+JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_nativePixelate
+  (JNIEnv *, jclass, jlong, jint);
+
+/*
+ * Class:     com_togrulseyid_prizmatagram_natives_NativeClass
+ * Method:    nativeOilPaint
+ * Signature: (J)V
+ */
+JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_nativeOilPaint
+  (JNIEnv *, jclass, jlong, jint, jint);
+
+/*
+ * Class:     com_togrulseyid_prizmatagram_natives_NativeClass
+ * Method:    nativeFishEye
+ * Signature: (J)V
+ */
+JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_nativeFishEye
+  (JNIEnv *, jclass, jlong, jint, jint);
+
+/*
+ * Class:     com_togrulseyid_prizmatagram_natives_NativeClass
+ * Method:    cartoonifyImage
+ * Signature: (J)V
+ */
+JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_cartoonifyImage
+  (JNIEnv *, jobject, jint, jint, jbyteArray, jintArray, jboolean, jboolean, jboolean, jboolean);
+
+/*
+ * Class:     com_togrulseyid_prizmatagram_natives_NativeClass
+ * Method:    ShowPreview
+ * Signature: (J)V
+ */
+JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_ShowPreview
+  (JNIEnv *, jobject, jint, jint, jbyteArray, jintArray);
+
+/*
+ * Class:     com_togrulseyid_prizmatagram_natives_NativeClass
+ * Method:    nativeFlip
+ * Signature: (J)V
+ */
+JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_nativeFlip
+  (JNIEnv *, jclass, jlong);
+
+/*
+ * Class:     com_togrulseyid_prizmatagram_natives_NativeClass
+ * Method:    nativeMirror
+ * Signature: (J)V
+ */
+JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_nativeMirror
   (JNIEnv *, jclass, jlong);
 
 /*
@@ -62,14 +118,6 @@ JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_nat
  */
 JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_nativeTest
   (JNIEnv *, jclass, jlong);
-
-/*
- * Class:     com_togrulseyid_prizmatagram_natives_NativeClass
- * Method:    nativeOilPaint
- * Signature: (J)V
- */
-JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_nativeOilPaint
-  (JNIEnv *, jclass, jlong, jint, jint);
 
 #ifdef __cplusplus
 }

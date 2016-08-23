@@ -4,6 +4,7 @@ import android.content.Context;
 import android.widget.LinearLayout;
 
 /**
+ * @link https://github.com/jfmdev/aFileDialog/tree/master/demo/aFileDialog
  * This interface defines all the methods that a file chooser must implement, in order to being able to make use of the class FileChooserUtils.
  */
 interface FileChooser {

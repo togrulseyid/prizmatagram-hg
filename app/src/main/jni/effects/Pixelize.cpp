@@ -22,53 +22,39 @@ void Pixelize::process()
 {
 	cv::Mat imgOut = mat->clone();
 
-	int width = imgOut.size().width;
-	int height = imgOut.size().height;
-
-    double meanColor;
-    cv::Vec3b newColor;
-    double coeff;
+    IplImage* img;
+    img = cvCreateImage(cvSize(imgOut.cols,imgOut.rows),8,3);
+    IplImage ipltemp=imgOut;
+    cvCopy(&ipltemp,img);
 
 
-	//LOGD("qaqa uzun oldu ee %d\n\n", (imgOut.size().height*imgOut.size().width/2*3));
-
-    #pragma omp parallel
-    {
-        int cores = omp_get_num_procs(); /* total number of cores available */
-        int tid = omp_get_thread_num(); /* the current thread ID */
-        int total_threads = omp_get_num_threads(); /* total number of threads */
-        int max_threads = omp_get_max_threads(); /* maximal number of threads can be requested in this Processor */
-
-        if (tid == 0) {
-            LOGI("%i : You have %d cores Processor.\n",tid, cores);
-            LOGI("%i : OpenMP generated %d threads.[max = %d].\n",tid, total_threads, max_threads);
-        }
-        //printf("%i : This is print by thread[%i]\n",tid,tid);
-        LOGI("%i : This is print by thread[%i]\n",tid,tid);
-
-        #pragma omp for
-        for (int i = 0; i < imgOut.size().height; ++i) {
-            for (int j = 0; j < imgOut.size().width/2*3; ++j) {
-
-                // desaturate the image
-                meanColor = (imgOut.at <cv::Vec3b> (i, j)[0] + imgOut.at<cv::Vec3b> (i, j)[1] + imgOut.at<cv::Vec3b> (i, j)[3]) / 3.0;
-                newColor[0] = (1 - decolorisation) * imgOut.at <cv::Vec3b> (i, j)[0] + decolorisation * meanColor;
-                newColor[1] = (1 - decolorisation) * imgOut.at <cv::Vec3b> (i, j)[1] + decolorisation * meanColor;
-                newColor[2] = (1 - decolorisation) * imgOut.at <cv::Vec3b> (i, j)[2] + decolorisation * meanColor;
-
-                // boost the blue channel
-                 coeff = 0.5 + sin((2 * M_PI * i) / wavelength) / 2.0;
-                newColor[0] = newColor[0] + intensity * coeff * (255 - newColor[0]);
-
-                mat->at < cv::Vec3b > (i, j) = newColor;
-            }
-        }
-    }
-
-	//LOGD("qaqa uzun oldu ee %d %d ", imgOut.size().height, imgOut.size().width);
+    *mat = pixelate(img, cols);
 
 	imgOut.release();
 }
+
+
+
+cv::Mat Pixelize::pixelate(IplImage* &img, int size) {
+
+	if(size > 0) {
+
+    LOGD("Geldi getdix %d", size);
+		for( int y=0; y<img->height; y++ ) {
+			for( int x=0; x<img->width; x++ ) { //traverse each pixel
+				for(int c=0; c<3; c++) { //access color channel
+					int xPixel = x-(x%size);
+					int yPixel = y-(y%size);
+					img->imageData[(y*img->width+x)*3+c] = img->imageData[(yPixel*img->width+xPixel)*3+c]; //replace with pixel img at adjustment value.
+				}
+			}
+		}
+	}
+
+	cv::Mat m = cv::cvarrToMat(img);  // default additional arguments: don't copy data.
+    return m;
+}
+
 
 #ifdef __cplusplus
 }

@@ -1,9 +1,7 @@
 package com.togrulseyid.prizmatagram;
 
 import android.app.Dialog;
-import android.content.ContentResolver;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -14,19 +12,13 @@ import android.widget.Toast;
 
 import com.togrulseyid.filechooserlibrary.FileChooserDialog;
 import com.togrulseyid.prizmatagram.activity.FilterActivity;
-import com.togrulseyid.prizmatagram.bitmap.PhotoActivity;
-import com.togrulseyid.prizmatagram.bitmap.library.Constants;
 import com.togrulseyid.prizmatagram.models.FilterModel;
-import com.togrulseyid.prizmatagram.models.FilterModelList;
-import com.togrulseyid.prizmatagram.utils.Algorithms;
-import com.togrulseyid.prizmatagram.utils.Utils;
 
 import org.opencv.android.BaseLoaderCallback;
 import org.opencv.android.LoaderCallbackInterface;
 import org.opencv.android.OpenCVLoader;
 
 import java.io.File;
-import java.util.ArrayList;
 import java.util.Stack;
 
 public class MainActivity extends AppCompatActivity {
@@ -71,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.button_gallery).setOnClickListener(btnDialogSelectImages);
         findViewById(R.id.button_camera).setOnClickListener(btnDialogSelectImages);
 
+        startGalleryActivity("/mnt/sdcard/Pictures/Instagram/IMG_20160613_160151.jpg");
     }
 
 //    //displayPhotoActivity(2, file.getAbsolutePath());
@@ -83,18 +76,23 @@ public class MainActivity extends AppCompatActivity {
 
     public void startGalleryActivity(String bitmap) {
 
-        ArrayList<FilterModel> images = new ArrayList<>();
+//        ArrayList<FilterModel> images = new ArrayList<>();
 //        TODO: Remove all filters make all of them from xml activity_filter_holder_filters.xml
-//        TODO: make alla of them on click listener
-        images.add(new FilterModel(Algorithms.NATIVE_FUNCTION, "ic_effect_blur"));
-        images.add(new FilterModel(Algorithms.NATIVE_DITHERING, "ic_effect_boost"));
-        images.add(new FilterModel(Algorithms.NATIVE_MOSAIC, "ic_effect_brightness"));
-        images.add(new FilterModel(Algorithms.NATIVE_TELEVISION, "ic_effect_colorbalance"));
-        images.add(new FilterModel(Algorithms.NATIVE_PIXELIZE, "ic_effect_colordepth"));
-        images.add(new FilterModel(Algorithms.NATIVE_OIL_PAINT, "ic_effect_contrast"));
-        images.add(new FilterModel(Algorithms.NATIVE_TEST, "ic_effect_vignette"));
+//        TODO: make all of them on click listener
 
-        FilterModelList filterModelList = new FilterModelList(images, bitmap);
+
+//        TODO: Fragment ile elemeyi dushun. Her bir Filter ucun fragment yuklensin.
+//        TODO: Onda rahat olacaq VIEW ClickListeners Touch and etc.
+//        images.add(new FilterModel(Algorithms.NATIVE_FUNCTION, "ic_effect_blur"));
+//        images.add(new FilterModel(Algorithms.NATIVE_DITHERING, "ic_effect_boost"));
+//        images.add(new FilterModel(Algorithms.NATIVE_MOSAIC, "ic_effect_brightness"));
+//        images.add(new FilterModel(Algorithms.NATIVE_TELEVISION, "ic_effect_colorbalance"));
+//        images.add(new FilterModel(Algorithms.NATIVE_PIXELIZE, "ic_effect_colordepth"));
+//        images.add(new FilterModel(Algorithms.NATIVE_OIL_PAINT, "ic_effect_contrast"));
+//        images.add(new FilterModel(Algorithms.NATIVE_TEST, "ic_effect_vignette"));
+
+//        FilterModelList filterModelList = new FilterModelList(images, bitmap);
+        FilterModel filterModelList = new FilterModel(bitmap);
 
         Intent intent = new Intent(MainActivity.this, FilterActivity.class);
         Bundle bundle = new Bundle();

@@ -1,2 +1,2 @@
-include ':app', ':filechooserlibrary'
+include ':app', ':filechooserlibrary', ':NativeFiltersLibrary'
 include ':openCVLibrary310'

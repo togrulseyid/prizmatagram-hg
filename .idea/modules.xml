@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/NativeFiltersLibrary/NativeFiltersLibrary.iml" filepath="$PROJECT_DIR$/NativeFiltersLibrary/NativeFiltersLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/PrizmaTagram.iml" filepath="$PROJECT_DIR$/PrizmaTagram.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/filechooserlibrary/filechooserlibrary.iml" filepath="$PROJECT_DIR$/filechooserlibrary/filechooserlibrary.iml" />
