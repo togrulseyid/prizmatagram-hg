@@ -16,11 +16,10 @@
 #include "effects/Kaleidoscope.h"
 #include "effects/PencilSketch.cpp"
 #include "effects/FishEye.h"
+#include "effects/ExposureSequence.h"
 
 #include "cartoonifier/cartoon.h"
 #include "cartoonifier/ImageUtils.h" // Handy functions for debugging OpenCV images, by Shervin Emami.
-
-
 
 #ifdef __cplusplus
 extern "C" {
@@ -110,7 +109,6 @@ JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_nat
     cv::Mat& mat = *((cv::Mat*)mat_adress);
     //nativeTelevision(mat);
 
-
     LOGD("Geldi getdi size %d", size);
     Pixelize pixelize(&mat, size);
     pixelize.process();
@@ -146,46 +144,14 @@ JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_nat
     //int intensity = 20;
     //int radius = 5;
 
-//    while (true)
-//    {
-        //v>>im;
-        cvtColor(im, intensityLUT, CV_RGB2GRAY);
-        intensityLUT = intensityLUT *(intensity/255.);
+    cvtColor(im, intensityLUT, CV_RGB2GRAY);
+    intensityLUT = intensityLUT *(intensity/255.);
 
-        ParallelInPaint x(im, dst, intensityLUT, radius);
-        parallel_for_( Range(0, im.rows), x, getNumThreads());
+    ParallelInPaint parallelInPaint(im, dst, intensityLUT, radius);
+    parallel_for_( Range(0, im.rows), parallelInPaint, getNumThreads());
 
-        im = dst;
-        //imshow("Result", dst);
-        /*
-        char c= waitKey(1);
-        switch (c){
-        case 'I':
-            intensity++;
-            if (intensity>255)
-                intensity=255;
-            break;
-        case 'i':
-            intensity--;
-            if (intensity==0)
-                intensity=1;
-        case 'R':
-            radius++;
-            if (radius>255)
-                radius=255;
-            break;
-        case 'r':
-            radius--;
-            if (radius==-1)
-                radius=0;
-        }
-        if (c>32)
-            cout << "Intensity =" << intensity << "\tradius = " << radius << "\n";
-            */
-//    }
-
+    im = dst;
 }
-
 
 /*
  * Class:     com_togrulseyid_test_NativeClass
@@ -198,10 +164,7 @@ JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_nat
 
     FishEye fishEye(&mat);
     fishEye.process();
-
-
 }
-
 
 /*
  * Modify the camera image using the Cartoonifier filter.
@@ -259,7 +222,6 @@ JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_car
     cvtColor(displayedFrame, mbgra, CV_BGR2BGRA);
     //--- End of custom C/C++ image processing with OpenCV ---//
 
-
     // Release the native lock we placed on the Java arrays.
     env->ReleaseIntArrayElements(bgra, _bgra, 0);
     env->ReleaseByteArrayElements(yuv, _yuv, 0);
@@ -267,6 +229,33 @@ JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_car
    // STOP_TIMING(CartoonifyImage);
     // Print the timing info.
    // SHOW_TIMING(CartoonifyImage, "CartoonifyImage");
+}
+
+
+
+
+/*
+ * Class:     com_togrulseyid_test_NativeClass
+ * Method:    cartoonifyImages
+ * Signature: (J)V
+ */
+JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_cartoonifyImages(JNIEnv* env, jclass obj, jlong mat_adress, jboolean sketchMode, jboolean alienMode, jboolean evilMode)
+{
+    cv::Mat& mat = *((cv::Mat*)mat_adress);
+
+    int debugType = 0;
+
+    Mat cameraFrame = mat;
+
+    Mat displayedFrame = Mat(cameraFrame.size(), CV_8UC3);
+    // Run the cartoonifier filter using the selected mode.
+    cartoonifyImage(cameraFrame, displayedFrame,
+        sketchMode, // Set to true if you want to see line drawings instead of paintings.
+        alienMode, // Set to true if you want to change the skin color of the character to an alien color.
+        evilMode, // Set to true if you want an evil "bad" character instead of a "good" character.
+        debugType);
+
+    mat = displayedFrame;
 }
 
 /*
@@ -293,14 +282,10 @@ JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_Sho
 
     // OpenCV can now access/modify the BGRA image if we want ...
 
-
     // Release the native lock we placed on the Java arrays.
     env->ReleaseIntArrayElements(bgra, _bgra, 0);
     env->ReleaseByteArrayElements(yuv, _yuv, 0);
 }
-
-
-
 
 /*
  * Class:     com_togrulseyid_test_NativeClass
@@ -313,9 +298,19 @@ JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_nat
 
     cv::Mat src = mat.clone();
     cv::flip(src, mat, 1);
-
 }
 
+/*
+ * Class:     com_togrulseyid_test_NativeClass
+ * Method:    nativeStylization
+ * Signature: (J)V
+ */
+JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_nativeStylization(JNIEnv* env, jclass obj, jlong mat_adress, jfloat sigma_s, jfloat sigma_r)
+{
+    cv::Mat& mat = *((cv::Mat*)mat_adress);
+//    stylization(Mat src, Mat dst, float sigma_s=60, float sigma_r=0.45f)
+    stylization(mat.clone(), mat, sigma_s, sigma_r);
+}
 
 /*
  * Class:     com_togrulseyid_test_NativeClass
@@ -330,6 +325,26 @@ JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_nat
 
 }
 
+
+cv::Mat  makeMe(Mat in) {      // load grayscale
+    Mat dest;
+    Mat src_f;
+    in.convertTo(src_f,CV_32F);
+
+    int kernel_size = 31;
+    double sig = 1, th = 0, lm = 1.0, gm = 0.02, ps = 0;
+    cv::Mat kernel = cv::getGaborKernel(cv::Size(kernel_size,kernel_size), sig, th, lm, gm, ps);
+    cv::filter2D(src_f, dest, CV_32F, kernel);
+
+    cerr << dest(Rect(30,30,10,10)) << endl; // peek into the data
+
+    Mat viz;
+    dest.convertTo(viz,CV_8U,1.0/255.0);     // move to proper[0..255] range to show it
+    //imshow("k",kernel);
+   // imshow("d",viz);
+   return dest;
+}
+
 /*
  * Class:     com_togrulseyid_test_NativeClass
  * Method:    nativeTest
@@ -338,36 +353,21 @@ JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_nat
 JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_nativeTest(JNIEnv* env, jclass obj, jlong mat_adress)
 {
     cv::Mat& mat = *((cv::Mat*)mat_adress);
-    //dithering(mat);
-    //toGrayscale(mat);
-    //nativeTelevision(mat);
 
- //   Kaleidoscope kaleidoscope(&mat);
- //   kaleidoscope.process();
+    stylization(mat.clone(), mat, 60, 0.45f);
 
-
-    // Set to true if you want to see line drawings instead of paintings.
-    bool m_sketchMode = false;
-    // Set to true if you want to change the skin color of the character to an alien color.
-    bool m_alienMode = false;
-    // Set to true if you want an evil "bad" character instead of a "good" character.
-    bool m_evilMode = false;
-
-    int debugType = 0;
-
-
-    Mat cameraFrame = mat;
-
-    Mat displayedFrame = Mat(cameraFrame.size(), CV_8UC3);
-    // Run the cartoonifier filter using the selected mode.
-    cartoonifyImage(cameraFrame, displayedFrame, m_sketchMode, m_alienMode, m_evilMode, debugType);
-
-    mat = displayedFrame;
-
+    LOGD("Zibil burdadi haaaxXY");
+    //ExposureSequence kaleidoscope(&mat);
+    //kaleidoscope.process();
+/*
+    try {
+       mat =  makeMe(mat.clone());
+    }catch(cv::Exception e)
+    {
+        std::cerr<<"Error using Retina : "<<e.what()<<std::endl;
+    }*/
 
 }
-
-
 
 #ifdef __cplusplus
 }

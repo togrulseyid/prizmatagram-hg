@@ -28,10 +28,14 @@ public class NativeClass {
 
     public static native void cartoonifyImage(int width, int height, byte[] yuv, int[] rgba, boolean sketchMode, boolean alienMode, boolean evilMode, boolean debugMode);
 
+    public static native void cartoonifyImages(long address, boolean sketchMode, boolean alienMode, boolean evilMode);
+
     public static native void ShowPreview(int width, int height, byte[] yuv, int[] rgba);
 
     public native static void nativeMirror(long address);
 
     public native static void nativeFlip(long address);
+
+    public native static void nativeStylization(long address, float sigma_s, float sigma_r);
 
 }

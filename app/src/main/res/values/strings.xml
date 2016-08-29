@@ -6,7 +6,9 @@
     <string name="action_apply">Apply</string>
     <string name="action_original">Original</string>
 
-
+    <!-- Messages -->
+    <string name="message_action_saved">Saved</string>
+    <string name="message_action_applied">Applied</string>
 
     <!-- BITMAP-->
     <string name="error_img_not_found">Oops! please try again.</string>
@@ -44,11 +46,9 @@
     <string name="cdepth">Color Depth: :value:</string>
 
 
-
     <string name="effect0">Native</string>
     <string name="effect1">Native Function</string>
     <string name="effect2">Dithering</string>
-
     <string name="effect3">Mosaic</string>
     <string name="effect4">Television</string>
     <string name="effect5">Pixelize</string>
@@ -58,42 +58,26 @@
     <string name="effect9">Pixelate</string>
     <string name="effect10">Flip</string>
     <string name="effect11">Mirror</string>
-
-
-
-
     <string name="effect12">Gray Style</string>
     <string name="effect13">Relief Style</string>
-    <string name="effect14">Average Blur Style</string>
+    <string name="effect14">Average Blur</string>
     <string name="effect15">Oil Style</string>
     <string name="effect16">Neon Style</string>
-    <string name="effect17">Pixelate Style</string>
+    <string name="effect17">Pixelate</string>
     <string name="effect18">Tv Style</string>
-    <string name="effect19">Invert Style</string>
+    <string name="effect19">Invert</string>
     <string name="effect20">Block Style</string>
     <string name="effect21">Old Style</string>
-    <string name="effect22">Sharpen Style</string>
+    <string name="effect22">Sharpen</string>
     <string name="effect23">Light Style</string>
     <string name="effect24">Lomo Style</string>
     <string name="effect25">Hdr Style</string>
-    <string name="effect26">Gaussian Blur Style</string>
-    <string name="effect27">Soft Glow Style</string>
+    <string name="effect26">Blur</string>
+    <string name="effect27">Soft Glow</string>
     <string name="effect28">Sketch Style</string>
-    <string name="effect29">Motion Blur Style</string>
-    <string name="effect30">Gotham Style</string>
-
-    <!--<string name="effect7">Grayscale</string>-->
-    <!--<string name="effect8">Sepia</string>-->
-    <!--<string name="effect9">Sharpen</string>-->
-    <!--<string name="effect10">Gau. Blur</string>-->
-    <!--<string name="effect11">C. Filter</string>-->
-    <!--<string name="effect12">C. Depth</string>-->
-    <!--<string name="effect13">Emboss</string>-->
-    <!--<string name="effect15">Noise</string>-->
-    <!--<string name="effect16">Sketch</string>-->
-    <!--<string name="effect17">Vignette</string>-->
-    <!--<string name="effect18">Saturation</string>-->
-    <!--<string name="effect19">Contrast</string>-->
+    <string name="effect29">Motion Blur</string>
+    <string name="effect30">Gotham</string>
+    <string name="effect31">Stylization</string>
 
     <!--<string name="effect1">Brightness</string>-->
     <!--<string name="effect2">Flip</string>-->
@@ -114,6 +98,5 @@
     <!--<string name="effect17">Vignette</string>-->
     <!--<string name="effect18">Saturation</string>-->
     <!--<string name="effect19">Contrast</string>-->
-
 
 </resources>

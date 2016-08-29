@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.togrulseyid.filechooserlibrary.FileChooserDialog;
+import com.togrulseyid.prizmatagram.activity.CameraViewActivity;
 import com.togrulseyid.prizmatagram.activity.FilterActivity;
 import com.togrulseyid.prizmatagram.models.FilterModel;
 
@@ -19,7 +20,6 @@ import org.opencv.android.LoaderCallbackInterface;
 import org.opencv.android.OpenCVLoader;
 
 import java.io.File;
-import java.util.Stack;
 
 public class MainActivity extends AppCompatActivity {
     public static final String TAG = "NativeActivity";
@@ -61,54 +61,20 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         findViewById(R.id.button_gallery).setOnClickListener(btnDialogSelectImages);
-        findViewById(R.id.button_camera).setOnClickListener(btnDialogSelectImages);
+        findViewById(R.id.button_camera).setOnClickListener(btnTakePictures);
 
         startGalleryActivity("/mnt/sdcard/Pictures/Instagram/IMG_20160613_160151.jpg");
     }
 
-//    //displayPhotoActivity(2, file.getAbsolutePath());
-//    private void displayPhotoActivity(int source_id, String imageURL) {
-//        Intent intent = new Intent(getApplicationContext(), PhotoActivity.class);
-//        intent.putExtra(Constants.EXTRA_KEY_IMAGE_SOURCE, source_id);
-//        intent.putExtra(Constants.KEY_URL, imageURL);
-//        startActivity(intent);
-//    }
-
     public void startGalleryActivity(String bitmap) {
-
-//        ArrayList<FilterModel> images = new ArrayList<>();
-//        TODO: Remove all filters make all of them from xml activity_filter_holder_filters.xml
-//        TODO: make all of them on click listener
-
-
 //        TODO: Fragment ile elemeyi dushun. Her bir Filter ucun fragment yuklensin.
 //        TODO: Onda rahat olacaq VIEW ClickListeners Touch and etc.
-//        images.add(new FilterModel(Algorithms.NATIVE_FUNCTION, "ic_effect_blur"));
-//        images.add(new FilterModel(Algorithms.NATIVE_DITHERING, "ic_effect_boost"));
-//        images.add(new FilterModel(Algorithms.NATIVE_MOSAIC, "ic_effect_brightness"));
-//        images.add(new FilterModel(Algorithms.NATIVE_TELEVISION, "ic_effect_colorbalance"));
-//        images.add(new FilterModel(Algorithms.NATIVE_PIXELIZE, "ic_effect_colordepth"));
-//        images.add(new FilterModel(Algorithms.NATIVE_OIL_PAINT, "ic_effect_contrast"));
-//        images.add(new FilterModel(Algorithms.NATIVE_TEST, "ic_effect_vignette"));
-
-//        FilterModelList filterModelList = new FilterModelList(images, bitmap);
         FilterModel filterModelList = new FilterModel(bitmap);
-
         Intent intent = new Intent(MainActivity.this, FilterActivity.class);
         Bundle bundle = new Bundle();
         bundle.putSerializable(FilterActivity.EXTRA_NAME, filterModelList);
         intent.putExtras(bundle);
-//        intent.putStringArrayListExtra(FilterActivity.EXTRA_NAME, images);
         startActivity(intent);
-    }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-//        if (bmp != null)
-//            bmp.recycle();
-//        if (mat != null)
-//            mat.release();
     }
 
     @Override
@@ -118,8 +84,6 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    private Stack<Integer> stack = new Stack<>();
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -127,25 +91,22 @@ public class MainActivity extends AppCompatActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
         if (id == R.id.action_reset) {
-//            stack.add(R.drawable.togrul8);
-//            stack.add(R.drawable.togrul7);
-//            stack.add(R.drawable.togrul6);
-//            stack.add(R.drawable.togrul5);
-//            stack.add(R.drawable.togrul4);
-//            stack.add(R.drawable.togrul3);
-//            stack.add(R.drawable.togrul2);
-//            stack.add(R.drawable.togrul9);
-//            stack.add(R.drawable.pass_pic);
-            stack.add(R.drawable.togrul1);
             return true;
         } else if (id == R.id.action_next) {
-            if (!stack.empty())
-                return true;
+            return true;
         }
         return super.onOptionsItemSelected(item);
     }
-////////////////////////////////////////////////////////////====================================================================================
 
+    ////////////////////////////////////////////////////////////====================================================================================
+    private View.OnClickListener btnTakePictures = new View.OnClickListener() {
+        public void onClick(View v) {
+
+//            startGalleryActivity(file.getAbsolutePath());
+            Intent intent = new Intent(MainActivity.this, CameraViewActivity.class);
+            startActivity(intent);
+        }
+    };
 
     private View.OnClickListener btnDialogSelectImages = new View.OnClickListener() {
         public void onClick(View v) {

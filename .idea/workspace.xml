@@ -13,19 +13,21 @@
     </layouts>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="589a9249-c3ee-4929-9f11-25d74cdc3602" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/filechooserlibrary/src/test/java/com/togrulseyid/filechooserlibrary/ExampleUnitTest.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_NativeFiltersLibrary_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_NativeFiltersLibrary_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_NativeFiltersLibrary_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_NativeFiltersLibrary_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_NativeFiltersLibrary_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_NativeFiltersLibrary_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_NativeFiltersLibrary_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_NativeFiltersLibrary_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_NativeFiltersLibrary_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_NativeFiltersLibrary_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_NativeFiltersLibrary_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_NativeFiltersLibrary_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
@@ -40,8 +42,24 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_openCVLibrary310_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_openCVLibrary310_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_openCVLibrary310_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_openCVLibrary310_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NativeFiltersLibrary/NativeFiltersLibrary.iml" afterPath="$PROJECT_DIR$/NativeFiltersLibrary/NativeFiltersLibrary.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NativeFiltersLibrary/build.gradle" afterPath="$PROJECT_DIR$/NativeFiltersLibrary/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/activity/FilterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/activity/FilterActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/models/FilterModel.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/models/FilterModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/effects/cartoonifier/CartoonifierApp.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/effects/cartoonifier/CartoonifierApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/natives/NativeClass.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/natives/NativeClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/utils/Algorithms.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/utils/Algorithms.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/jni/Android.mk" afterPath="$PROJECT_DIR$/app/src/main/jni/Android.mk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/jni/NativeClass.cpp" afterPath="$PROJECT_DIR$/app/src/main/jni/NativeClass.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/jni/com_togrulseyid_prizmatagram_NativeClass.h" afterPath="$PROJECT_DIR$/app/src/main/jni/com_togrulseyid_prizmatagram_NativeClass.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/jni/core/std_head.h" afterPath="$PROJECT_DIR$/app/src/main/jni/core/std_head.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_filter_holder_filters.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_filter_holder_filters.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filechooserlibrary/build.gradle" afterPath="$PROJECT_DIR$/filechooserlibrary/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary310/build.gradle" afterPath="$PROJECT_DIR$/openCVLibrary310/build.gradle" />
     </list>
     <ignored path="PrizmaTagram.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,39 +87,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="FilterActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/activity/FilterActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding>
+                <element signature="method#onCreateOptionsMenu#0;class#FilterActivity#0" expanded="false" />
+                <element signature="method#onOptionsItemSelected#0;class#FilterActivity#0" expanded="false" />
+                <element signature="method#onDestroy#0;class#FilterActivity#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="366" column="2" selection-start-line="366" selection-start-column="2" selection-end-line="366" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FilterActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/activity/FilterActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.4155495">
-              <caret line="332" column="0" selection-start-line="332" selection-start-column="0" selection-end-line="332" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#onCreateOptionsMenu#0;class#FilterActivity#0" expanded="false" />
-                <element signature="class#12435:14573" expanded="false" />
-                <element signature="method#onFileSelected#0;class#12435:14573" expanded="false" />
-                <element signature="method#onFileSelected#1;class#12435:14573" expanded="false" />
-              </folding>
-            </state>
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="filter.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/filter.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="37" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="37" />
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CameraViewActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/activity/CameraViewActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.27882037">
+              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -114,102 +141,41 @@
           </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_filter_holder_filters.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_filter_holder_filters.xml">
+      <file leaf-file-name="NativeClass.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/jni/NativeClass.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="304" column="31" selection-start-line="304" selection-start-column="14" selection-end-line="304" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_camera_view.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_camera_view.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="40" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="40" />
-              <folding>
-                <element signature="e#1197#1561#0" expanded="false" />
-                <element signature="e#2575#2940#0" expanded="false" />
-                <element signature="e#3955#4325#0" expanded="false" />
-                <element signature="e#4343#4966#0" expanded="false" />
-                <element signature="e#5337#5707#0" expanded="false" />
-                <element signature="e#5725#6348#0" expanded="false" />
-                <element signature="e#6723#7095#0" expanded="false" />
-                <element signature="e#7113#7736#0" expanded="false" />
-                <element signature="e#8109#8477#0" expanded="false" />
-                <element signature="e#8495#9118#0" expanded="false" />
-                <element signature="e#9492#9858#0" expanded="false" />
-                <element signature="e#9876#10499#0" expanded="false" />
-                <element signature="e#10543#11906#0" expanded="false" />
-                <element signature="e#10869#11235#0" expanded="false" />
-                <element signature="e#11253#11876#0" expanded="false" />
-                <element signature="e#12249#12617#0" expanded="false" />
-                <element signature="e#12635#13258#0" expanded="false" />
-                <element signature="e#13631#13999#0" expanded="false" />
-                <element signature="e#14017#14640#0" expanded="false" />
-                <element signature="e#15009#15374#0" expanded="false" />
-                <element signature="e#15392#16017#0" expanded="false" />
-                <element signature="e#16388#16755#0" expanded="false" />
-                <element signature="e#16773#17398#0" expanded="false" />
-                <element signature="e#17496#18860#0" expanded="false" />
-                <element signature="e#17820#18187#0" expanded="false" />
-                <element signature="e#18205#18830#0" expanded="false" />
-                <element signature="e#18874#20240#0" expanded="false" />
-                <element signature="e#19200#19567#0" expanded="false" />
-                <element signature="e#19585#20210#0" expanded="false" />
-                <element signature="e#20254#21626#0" expanded="false" />
-                <element signature="e#20586#20953#0" expanded="false" />
-                <element signature="e#20971#21596#0" expanded="false" />
-                <element signature="e#21640#23003#0" expanded="false" />
-                <element signature="e#21963#22330#0" expanded="false" />
-                <element signature="e#22348#22973#0" expanded="false" />
-                <element signature="e#23017#24381#0" expanded="false" />
-                <element signature="e#23341#23708#0" expanded="false" />
-                <element signature="e#23726#24351#0" expanded="false" />
-                <element signature="e#24395#25763#0" expanded="false" />
-                <element signature="e#24723#25090#0" expanded="false" />
-                <element signature="e#25108#25733#0" expanded="false" />
-                <element signature="e#25777#27139#0" expanded="false" />
-                <element signature="e#26099#26466#0" expanded="false" />
-                <element signature="e#26484#27109#0" expanded="false" />
-                <element signature="e#27153#28519#0" expanded="false" />
-                <element signature="e#27479#27846#0" expanded="false" />
-                <element signature="e#27864#28489#0" expanded="false" />
-                <element signature="e#28533#29898#0" expanded="false" />
-                <element signature="e#28858#29225#0" expanded="false" />
-                <element signature="e#29243#29868#0" expanded="false" />
-                <element signature="e#29912#31275#0" expanded="false" />
-                <element signature="e#30235#30602#0" expanded="false" />
-                <element signature="e#30620#31245#0" expanded="false" />
-                <element signature="e#31289#32656#0" expanded="false" />
-                <element signature="e#31616#31983#0" expanded="false" />
-                <element signature="e#32001#32626#0" expanded="false" />
-                <element signature="e#32670#34035#0" expanded="false" />
-                <element signature="e#32995#33362#0" expanded="false" />
-                <element signature="e#33380#34005#0" expanded="false" />
-                <element signature="e#34049#35413#0" expanded="false" />
-                <element signature="e#34373#34740#0" expanded="false" />
-                <element signature="e#34758#35383#0" expanded="false" />
-                <element signature="e#35427#36790#0" expanded="false" />
-                <element signature="e#35750#36117#0" expanded="false" />
-                <element signature="e#36135#36760#0" expanded="false" />
-                <element signature="e#36804#38177#0" expanded="false" />
-                <element signature="e#37137#37504#0" expanded="false" />
-                <element signature="e#37522#38147#0" expanded="false" />
-                <element signature="e#38191#39560#0" expanded="false" />
-                <element signature="e#38520#38887#0" expanded="false" />
-                <element signature="e#38905#39530#0" expanded="false" />
-                <element signature="e#39574#40940#0" expanded="false" />
-                <element signature="e#39900#40267#0" expanded="false" />
-                <element signature="e#40285#40910#0" expanded="false" />
-                <element signature="e#40954#42325#0" expanded="false" />
-                <element signature="e#41285#41652#0" expanded="false" />
-                <element signature="e#41670#42295#0" expanded="false" />
-                <element signature="e#42339#43705#0" expanded="false" />
-                <element signature="e#42665#43032#0" expanded="false" />
-                <element signature="e#43050#43675#0" expanded="false" />
-              </folding>
+              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -749,24 +715,49 @@
                 <option name="name" value="preReleaseUnitTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:animated-vector-drawable:24.1.1" />
+                <option name="description" value="Prepare com.android.support:animated-vector-drawable:24.2.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2411Library" />
+                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2420Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:appcompat-v7:24.1.1" />
+                <option name="description" value="Prepare com.android.support:appcompat-v7:24.2.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportAppcompatV72411Library" />
+                <option name="name" value="prepareComAndroidSupportAppcompatV72420Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-v4:24.1.1" />
+                <option name="description" value="Prepare com.android.support:support-compat:24.2.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportV42411Library" />
+                <option name="name" value="prepareComAndroidSupportSupportCompat2420Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-vector-drawable:24.1.1" />
+                <option name="description" value="Prepare com.android.support:support-core-ui:24.2.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2411Library" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUi2420Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-utils:24.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2420Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-fragment:24.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportFragment2420Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-media-compat:24.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2420Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v4:24.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportV42420Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-vector-drawable:24.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2420Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -958,14 +949,14 @@
                 <option name="name" value="prePackageMarkerForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:design:24.1.1" />
+                <option name="description" value="Prepare com.android.support:design:24.2.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportDesign2411Library" />
+                <option name="name" value="prepareComAndroidSupportDesign2420Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:recyclerview-v7:24.1.1" />
+                <option name="description" value="Prepare com.android.support:recyclerview-v7:24.2.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportRecyclerviewV72411Library" />
+                <option name="name" value="prepareComAndroidSupportRecyclerviewV72420Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.davemorrissey.labs:subsampling-scale-image-view:3.1.3" />
@@ -1474,24 +1465,49 @@
                 <option name="name" value="preReleaseUnitTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:animated-vector-drawable:24.1.1" />
+                <option name="description" value="Prepare com.android.support:animated-vector-drawable:24.2.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/NativeFiltersLibrary" />
-                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2411Library" />
+                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2420Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:appcompat-v7:24.1.1" />
+                <option name="description" value="Prepare com.android.support:appcompat-v7:24.2.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/NativeFiltersLibrary" />
-                <option name="name" value="prepareComAndroidSupportAppcompatV72411Library" />
+                <option name="name" value="prepareComAndroidSupportAppcompatV72420Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-v4:24.1.1" />
+                <option name="description" value="Prepare com.android.support:support-compat:24.2.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/NativeFiltersLibrary" />
-                <option name="name" value="prepareComAndroidSupportSupportV42411Library" />
+                <option name="name" value="prepareComAndroidSupportSupportCompat2420Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-vector-drawable:24.1.1" />
+                <option name="description" value="Prepare com.android.support:support-core-ui:24.2.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/NativeFiltersLibrary" />
-                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2411Library" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUi2420Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-utils:24.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/NativeFiltersLibrary" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2420Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-fragment:24.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/NativeFiltersLibrary" />
+                <option name="name" value="prepareComAndroidSupportSupportFragment2420Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-media-compat:24.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/NativeFiltersLibrary" />
+                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2420Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v4:24.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/NativeFiltersLibrary" />
+                <option name="name" value="prepareComAndroidSupportSupportV42420Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-vector-drawable:24.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/NativeFiltersLibrary" />
+                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2420Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/NativeFiltersLibrary" />
@@ -2106,34 +2122,59 @@
                 <option name="name" value="preReleaseUnitTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:animated-vector-drawable:24.1.1" />
+                <option name="description" value="Prepare com.android.support:animated-vector-drawable:24.2.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2411Library" />
+                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2420Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:appcompat-v7:24.1.1" />
+                <option name="description" value="Prepare com.android.support:appcompat-v7:24.2.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportAppcompatV72411Library" />
+                <option name="name" value="prepareComAndroidSupportAppcompatV72420Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:design:24.1.1" />
+                <option name="description" value="Prepare com.android.support:design:24.2.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportDesign2411Library" />
+                <option name="name" value="prepareComAndroidSupportDesign2420Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:recyclerview-v7:24.1.1" />
+                <option name="description" value="Prepare com.android.support:recyclerview-v7:24.2.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportRecyclerviewV72411Library" />
+                <option name="name" value="prepareComAndroidSupportRecyclerviewV72420Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-v4:24.1.1" />
+                <option name="description" value="Prepare com.android.support:support-compat:24.2.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportSupportV42411Library" />
+                <option name="name" value="prepareComAndroidSupportSupportCompat2420Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-vector-drawable:24.1.1" />
+                <option name="description" value="Prepare com.android.support:support-core-ui:24.2.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2411Library" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUi2420Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-utils:24.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2420Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-fragment:24.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportSupportFragment2420Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-media-compat:24.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2420Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v4:24.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportSupportV42420Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-vector-drawable:24.2.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2420Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.davemorrissey.labs:subsampling-scale-image-view:3.1.3" />
@@ -3570,7 +3611,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="8822936926512" />
+        <entry key="$PROJECT_DIR$" value="8830618183434" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -3748,11 +3789,16 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/24.1.1/appcompat-v7-24.1.1.aar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/animated-vector-drawable/24.1.1/animated-vector-drawable-24.1.1.aar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-v4/24.1.1/support-v4-24.1.1.aar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-vector-drawable/24.1.1/support-vector-drawable-24.1.1.aar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/24.2.0/appcompat-v7-24.2.0.aar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-vector-drawable/24.2.0/support-vector-drawable-24.2.0.aar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/animated-vector-drawable/24.2.0/animated-vector-drawable-24.2.0.aar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-v4/24.2.0/support-v4-24.2.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-compat/24.2.0/a837404f28f101f2916aa9aa52ee69f66ea3896a/support-compat-24.2.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-core-utils/24.2.0/221d118dd4764d3bb968ac463e52f5d6627dd663/support-core-utils-24.2.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-media-compat/24.2.0/8a3ea4e6733e4481608c88887b8a75c29491524b/support-media-compat-24.2.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-core-ui/24.2.0/d86b936e8785254b2dd0bd75216bd3093b547a87/support-core-ui-24.2.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-fragment/24.2.0/a0d92cf8eedde2315aef4c6af6b7238690d9b461/support-fragment-24.2.0.aar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/NativeFiltersLibrary" />
@@ -3840,16 +3886,21 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/24.1.1/appcompat-v7-24.1.1.aar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/design/24.1.1/design-24.1.1.aar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/24.2.0/appcompat-v7-24.2.0.aar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/design/24.2.0/design-24.2.0.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.6.0/a7537446a030da8eb0da4c71424d16c2589f6c4a/glide-3.6.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.davemorrissey.labs/subsampling-scale-image-view/3.1.3/4409ad4c32ba4697c962e049e8c166778a09a040/subsampling-scale-image-view-3.1.3.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.1.0/63735f48b82bcd24cdd33821342428252eb1ca5a/butterknife-6.1.0.jar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/animated-vector-drawable/24.1.1/animated-vector-drawable-24.1.1.aar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-v4/24.1.1/support-v4-24.1.1.aar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-vector-drawable/24.1.1/support-vector-drawable-24.1.1.aar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/24.1.1/recyclerview-v7-24.1.1.aar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-vector-drawable/24.2.0/support-vector-drawable-24.2.0.aar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/animated-vector-drawable/24.2.0/animated-vector-drawable-24.2.0.aar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-v4/24.2.0/support-v4-24.2.0.aar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/24.2.0/recyclerview-v7-24.2.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-compat/24.2.0/a837404f28f101f2916aa9aa52ee69f66ea3896a/support-compat-24.2.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-core-utils/24.2.0/221d118dd4764d3bb968ac463e52f5d6627dd663/support-core-utils-24.2.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-media-compat/24.2.0/8a3ea4e6733e4481608c88887b8a75c29491524b/support-media-compat-24.2.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-core-ui/24.2.0/d86b936e8785254b2dd0bd75216bd3093b547a87/support-core-ui-24.2.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-fragment/24.2.0/a0d92cf8eedde2315aef4c6af6b7238690d9b461/support-fragment-24.2.0.aar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/app" />
@@ -4116,19 +4167,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/effects/cartoonifier/CartoonifierViewBase.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/effects/cartoonifier/CartoonifierApp.java" />
-        <option value="$PROJECT_DIR$/app/src/main/jni/cartoonifier/cartoon.cpp" />
-        <option value="$PROJECT_DIR$/app/src/main/jni/cartoonifier/Android.mk" />
-        <option value="$PROJECT_DIR$/app/src/main/jni/cartoonifier/jni_part.cpp" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/effects/cartoonifier/CartoonifierView.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/effects/WaterFilter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/effects/TransformFilter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/effects/FaceBlurFilter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/effects/PixalateFilter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/effects/PixelateFilter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/effects/PixelatedFilter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/jni/core/std_head.h" />
         <option value="$PROJECT_DIR$/app/src/main/jni/effects/Pixelize.h" />
         <option value="$PROJECT_DIR$/app/src/main/jni/effects/Pixelize.cpp" />
         <option value="$PROJECT_DIR$/app/src/main/jni/effects/Pixelise.h" />
@@ -4136,24 +4179,15 @@
         <option value="$PROJECT_DIR$/app/src/main/jni/effects/Pixelate.cpp" />
         <option value="$PROJECT_DIR$/app/src/main/jni/effects/Pixelate.h" />
         <option value="$PROJECT_DIR$/app/src/main/jni/effects/FishEye.cpp" />
-        <option value="$PROJECT_DIR$/app/src/main/jni/com_togrulseyid_prizmatagram_NativeClass.h" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/natives/NativeClass.java" />
         <option value="$PROJECT_DIR$/app/src/main/jni/effects/ColorMap.h" />
         <option value="$PROJECT_DIR$/app/src/main/jni/effects/ColorMap.cpp" />
-        <option value="$PROJECT_DIR$/app/src/main/jni/Android.mk" />
         <option value="$PROJECT_DIR$/NativeFiltersLibrary/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/NativeFiltersLibrary/src/main/java/com/togrulseyid/nativelibrary/SoftGlowFilter.java" />
-        <option value="$PROJECT_DIR$/NativeFiltersLibrary/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/utils/Algorithms.java" />
-        <option value="$PROJECT_DIR$/app/src/main/jni/NativeClass.cpp" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_filter_holder_filters.xml" />
         <option value="$PROJECT_DIR$/NativeFiltersLibrary/src/main/jni/cn_Ragnarok_NativeFilterFunc.h" />
         <option value="$PROJECT_DIR$/NativeFiltersLibrary/src/main/jni/cn_Ragnarok_NativeFilterFunc.cpp" />
         <option value="$PROJECT_DIR$/NativeFiltersLibrary/src/main/jni/Android.mk" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/models/FilterModelList.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_filter_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_filter.xml" />
@@ -4161,12 +4195,29 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_filter.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/filter.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/filechooserlibrary/src/main/java/com/togrulseyid/filechooserlibrary/FileChooser.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/natives/Library.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/models/FilterModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/effects/cartoonifier/CartoonifierApp.java" />
+        <option value="$PROJECT_DIR$/app/src/main/jni/core/std_head.h" />
+        <option value="$PROJECT_DIR$/app/src/main/jni/Android.mk" />
+        <option value="$PROJECT_DIR$/app/src/main/jni/effects/ExposureSequence.h" />
+        <option value="$PROJECT_DIR$/app/src/main/jni/effects/ExposureSequence.cpp" />
+        <option value="$PROJECT_DIR$/app/src/main/jni/com_togrulseyid_prizmatagram_NativeClass.h" />
+        <option value="$PROJECT_DIR$/app/src/main/jni/NativeClass.cpp" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/natives/NativeClass.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/utils/Algorithms.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_filter_holder_filters.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/activity/FilterActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/activity/CameraViewActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_camera_view.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/filechooserlibrary/build.gradle" />
+        <option value="$PROJECT_DIR$/NativeFiltersLibrary/build.gradle" />
+        <option value="$PROJECT_DIR$/openCVLibrary310/build.gradle" />
       </list>
     </option>
   </component>
@@ -4187,7 +4238,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="AndroidView" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -4202,6 +4253,27 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PrizmaTagram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PrizmaTagram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PrizmaTagram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -4276,73 +4348,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrizmaTagram" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrizmaTagram" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrizmaTagram" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrizmaTagram" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrizmaTagram" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="filechooserlibrary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrizmaTagram" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrizmaTagram" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="filechooserlibrary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrizmaTagram" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrizmaTagram" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -4355,15 +4360,16 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/android-image-filter-master" />
   </component>
   <component name="RecentsManager">
-    <key name="android.template.packageName">
-      <recent name="layout" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\toghrul\PrizmaTagram\app\src\main\jni\effects" />
       <recent name="C:\Users\toghrul\PrizmaTagram\app\src\main\res\layout" />
       <recent name="C:\Users\toghrul\PrizmaTagram\app\src\main\res\menu" />
       <recent name="C:\Users\toghrul\PrizmaTagram\NativeFiltersLibrary\src\main\java\com\togrulseyid\nativelibrary" />
       <recent name="C:\Users\toghrul\PrizmaTagram\NativeFiltersLibrary\src\main" />
-      <recent name="C:\Users\toghrul\PrizmaTagram\app\src\main\jni\effects" />
+    </key>
+    <key name="android.template.packageName">
+      <recent name="com.togrulseyid.prizmatagram.activity" />
+      <recent name="layout" />
     </key>
     <key name="android.template.parentActivityClass">
       <recent name="" />
@@ -4766,25 +4772,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718122" sideWeight="0.51891077" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32718122" sideWeight="0.48108926" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718122" sideWeight="0.5279879" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32718122" sideWeight="0.4720121" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.48562783" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.4773071" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.51437217" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718122" sideWeight="0.5249622" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24810892" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24810892" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -4797,14 +4802,15 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718122" sideWeight="0.51891077" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32718122" sideWeight="0.48108926" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718122" sideWeight="0.5249622" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32718122" sideWeight="0.4750378" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
@@ -4820,10 +4826,10 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.48562783" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.4773071" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.51437217" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24810892" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718122" sideWeight="0.5249622" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24810892" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -4856,202 +4862,11 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="25" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NativeFiltersLibrary/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20950705">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NativeFiltersLibrary/src/main/java/com/togrulseyid/nativelibrary/OilFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29929578">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/jni/NativeClass.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.074074">
-          <caret line="328" column="6" selection-start-line="328" selection-start-column="6" selection-end-line="328" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NativeFiltersLibrary/src/main/jni/BlockFilter.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NativeFiltersLibrary/src/main/jni/BlockFilter.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.3148148">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NativeFiltersLibrary/src/main/jni/Application.mk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NativeFiltersLibrary/src/main/jni/AndroidImageFilter.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NativeFiltersLibrary/src/main/jni/ColorTranslator.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2898833">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NativeFiltersLibrary/src/main/jni/ColorTranslator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NativeFiltersLibrary/src/main/jni/Android.mk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35739437">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NativeFiltersLibrary/src/main/jni/com_togrulseyid_nativelibrary_NativeFilterFunc.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16536964">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NativeFiltersLibrary/src/main/jni/com_togrulseyid_nativelibrary_NativeFilterFunc.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33260393">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NativeFiltersLibrary/src/main/java/com/togrulseyid/nativelibrary/NativeFilterFunc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="37" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NativeFiltersLibrary/src/main/java/com/togrulseyid/nativelibrary/BlockFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50880283">
-          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/holder_apply_filter.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.1.0/282f5b78b68e7e5cbaa2f4266265f7f5cc783ee6/butterknife-6.1.0-sources.jar!/butterknife/InjectView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="19" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-24/android.jar!/android/widget/Toast.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37421384">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24566475">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.3090909">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48991355">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.265625">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/filter.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-24/android.jar!/junit/framework/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36770427">
@@ -5073,14 +4888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-24/android.jar!/java/io/File.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.2507837">
@@ -5092,25 +4899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17554858">
           <caret line="20" column="79" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/utils/Algorithms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3324397">
-          <caret line="17" column="69" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_filter.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -5133,103 +4921,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_filter_holder_filters.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="40" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="40" />
-          <folding>
-            <element signature="e#1197#1561#0" expanded="false" />
-            <element signature="e#2575#2940#0" expanded="false" />
-            <element signature="e#3955#4325#0" expanded="false" />
-            <element signature="e#4343#4966#0" expanded="false" />
-            <element signature="e#5337#5707#0" expanded="false" />
-            <element signature="e#5725#6348#0" expanded="false" />
-            <element signature="e#6723#7095#0" expanded="false" />
-            <element signature="e#7113#7736#0" expanded="false" />
-            <element signature="e#8109#8477#0" expanded="false" />
-            <element signature="e#8495#9118#0" expanded="false" />
-            <element signature="e#9492#9858#0" expanded="false" />
-            <element signature="e#9876#10499#0" expanded="false" />
-            <element signature="e#10543#11906#0" expanded="false" />
-            <element signature="e#10869#11235#0" expanded="false" />
-            <element signature="e#11253#11876#0" expanded="false" />
-            <element signature="e#12249#12617#0" expanded="false" />
-            <element signature="e#12635#13258#0" expanded="false" />
-            <element signature="e#13631#13999#0" expanded="false" />
-            <element signature="e#14017#14640#0" expanded="false" />
-            <element signature="e#15009#15374#0" expanded="false" />
-            <element signature="e#15392#16017#0" expanded="false" />
-            <element signature="e#16388#16755#0" expanded="false" />
-            <element signature="e#16773#17398#0" expanded="false" />
-            <element signature="e#17496#18860#0" expanded="false" />
-            <element signature="e#17820#18187#0" expanded="false" />
-            <element signature="e#18205#18830#0" expanded="false" />
-            <element signature="e#18874#20240#0" expanded="false" />
-            <element signature="e#19200#19567#0" expanded="false" />
-            <element signature="e#19585#20210#0" expanded="false" />
-            <element signature="e#20254#21626#0" expanded="false" />
-            <element signature="e#20586#20953#0" expanded="false" />
-            <element signature="e#20971#21596#0" expanded="false" />
-            <element signature="e#21640#23003#0" expanded="false" />
-            <element signature="e#21963#22330#0" expanded="false" />
-            <element signature="e#22348#22973#0" expanded="false" />
-            <element signature="e#23017#24381#0" expanded="false" />
-            <element signature="e#23341#23708#0" expanded="false" />
-            <element signature="e#23726#24351#0" expanded="false" />
-            <element signature="e#24395#25763#0" expanded="false" />
-            <element signature="e#24723#25090#0" expanded="false" />
-            <element signature="e#25108#25733#0" expanded="false" />
-            <element signature="e#25777#27139#0" expanded="false" />
-            <element signature="e#26099#26466#0" expanded="false" />
-            <element signature="e#26484#27109#0" expanded="false" />
-            <element signature="e#27153#28519#0" expanded="false" />
-            <element signature="e#27479#27846#0" expanded="false" />
-            <element signature="e#27864#28489#0" expanded="false" />
-            <element signature="e#28533#29898#0" expanded="false" />
-            <element signature="e#28858#29225#0" expanded="false" />
-            <element signature="e#29243#29868#0" expanded="false" />
-            <element signature="e#29912#31275#0" expanded="false" />
-            <element signature="e#30235#30602#0" expanded="false" />
-            <element signature="e#30620#31245#0" expanded="false" />
-            <element signature="e#31289#32656#0" expanded="false" />
-            <element signature="e#31616#31983#0" expanded="false" />
-            <element signature="e#32001#32626#0" expanded="false" />
-            <element signature="e#32670#34035#0" expanded="false" />
-            <element signature="e#32995#33362#0" expanded="false" />
-            <element signature="e#33380#34005#0" expanded="false" />
-            <element signature="e#34049#35413#0" expanded="false" />
-            <element signature="e#34373#34740#0" expanded="false" />
-            <element signature="e#34758#35383#0" expanded="false" />
-            <element signature="e#35427#36790#0" expanded="false" />
-            <element signature="e#35750#36117#0" expanded="false" />
-            <element signature="e#36135#36760#0" expanded="false" />
-            <element signature="e#36804#38177#0" expanded="false" />
-            <element signature="e#37137#37504#0" expanded="false" />
-            <element signature="e#37522#38147#0" expanded="false" />
-            <element signature="e#38191#39560#0" expanded="false" />
-            <element signature="e#38520#38887#0" expanded="false" />
-            <element signature="e#38905#39530#0" expanded="false" />
-            <element signature="e#39574#40940#0" expanded="false" />
-            <element signature="e#39900#40267#0" expanded="false" />
-            <element signature="e#40285#40910#0" expanded="false" />
-            <element signature="e#40954#42325#0" expanded="false" />
-            <element signature="e#41285#41652#0" expanded="false" />
-            <element signature="e#41670#42295#0" expanded="false" />
-            <element signature="e#42339#43705#0" expanded="false" />
-            <element signature="e#42665#43032#0" expanded="false" />
-            <element signature="e#43050#43675#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3324397">
           <caret line="122" column="21" selection-start-line="122" selection-start-column="8" selection-end-line="122" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -5237,7 +4932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.04557641">
           <caret line="9" column="51" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -5245,7 +4939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22788204">
           <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -5253,7 +4946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21830986">
           <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -5261,17 +4953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29929578">
           <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="366" column="2" selection-start-line="366" selection-start-column="2" selection-end-line="366" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -5279,10 +4960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.0370371">
           <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
-          <folding>
-            <element signature="e#1558#1559#0" expanded="true" />
-            <element signature="e#1609#1610#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -5290,10 +4967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-          <folding>
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -5301,7 +4974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39855072">
           <caret line="317" column="31" selection-start-line="317" selection-start-column="31" selection-end-line="317" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -5309,7 +4981,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38871473">
           <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -5317,23 +4988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4691689">
           <caret line="42" column="30" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.davemorrissey.labs/subsampling-scale-image-view/3.1.3/jars/classes.jar!/com/davemorrissey/labs/subscaleview/ImageSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18853974">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.davemorrissey.labs/subsampling-scale-image-view/3.1.3/jars/classes.jar!/com/davemorrissey/labs/subscaleview/SubsamplingScaleImageView.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.909427">
-          <caret line="235" column="22" selection-start-line="235" selection-start-column="22" selection-end-line="235" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -5341,21 +4995,414 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38871473">
           <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/effects/cartoonifier/CartoonifierApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23943663">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/Android.mk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46126762">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/effects/FishEye.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.9339623">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/effects/GaussianBlur.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7641509">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/effects/Pixelate.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6415094">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/effects/Pixelize.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4433962">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/core/std_head.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4514107">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/core/std_head.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6865204">
+          <caret line="45" column="15" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/effects/cartoonifier/CartoonifierView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="157" column="28" selection-start-line="157" selection-start-column="28" selection-end-line="157" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/effects/ExposureSequence.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4074073">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/com_togrulseyid_prizmatagram_NativeClass.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9622642">
+          <caret line="119" column="42" selection-start-line="119" selection-start-column="42" selection-end-line="119" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/effects/ExposureSequence.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.685185">
+          <caret line="74" column="26" selection-start-line="74" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/natives/NativeClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="47" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/utils/Algorithms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="75" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/NativeClass.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="304" column="31" selection-start-line="304" selection-start-column="14" selection-end-line="304" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_filter_holder_filters.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0914826">
+          <caret line="988" column="0" selection-start-line="988" selection-start-column="0" selection-end-line="988" selection-end-column="0" />
+          <folding>
+            <element signature="e#1197#1561#0" expanded="false" />
+            <element signature="e#1481#1499#0" expanded="true" />
+            <element signature="e#2090#2107#0" expanded="true" />
+            <element signature="e#2575#2940#0" expanded="false" />
+            <element signature="e#2859#2877#0" expanded="true" />
+            <element signature="e#3469#3486#0" expanded="true" />
+            <element signature="e#3955#4325#0" expanded="false" />
+            <element signature="e#4239#4257#0" expanded="true" />
+            <element signature="e#4343#4966#0" expanded="false" />
+            <element signature="e#4854#4871#0" expanded="true" />
+            <element signature="e#5337#5707#0" expanded="false" />
+            <element signature="e#5621#5639#0" expanded="true" />
+            <element signature="e#5725#6348#0" expanded="false" />
+            <element signature="e#6236#6253#0" expanded="true" />
+            <element signature="e#6723#7095#0" expanded="false" />
+            <element signature="e#7007#7025#0" expanded="true" />
+            <element signature="e#7113#7736#0" expanded="false" />
+            <element signature="e#7624#7641#0" expanded="true" />
+            <element signature="e#8109#8477#0" expanded="false" />
+            <element signature="e#8393#8411#0" expanded="true" />
+            <element signature="e#8495#9118#0" expanded="false" />
+            <element signature="e#9006#9023#0" expanded="true" />
+            <element signature="e#9492#9858#0" expanded="false" />
+            <element signature="e#9776#9794#0" expanded="true" />
+            <element signature="e#9876#10499#0" expanded="false" />
+            <element signature="e#10387#10404#0" expanded="true" />
+            <element signature="e#10543#11906#0" expanded="false" />
+            <element signature="e#10869#11235#0" expanded="false" />
+            <element signature="e#11153#11171#0" expanded="true" />
+            <element signature="e#11253#11876#0" expanded="false" />
+            <element signature="e#11764#11781#0" expanded="true" />
+            <element signature="e#12249#12617#0" expanded="false" />
+            <element signature="e#12533#12551#0" expanded="true" />
+            <element signature="e#12635#13258#0" expanded="false" />
+            <element signature="e#13146#13163#0" expanded="true" />
+            <element signature="e#13631#13999#0" expanded="false" />
+            <element signature="e#13915#13933#0" expanded="true" />
+            <element signature="e#14017#14640#0" expanded="false" />
+            <element signature="e#14528#14545#0" expanded="true" />
+            <element signature="e#15009#15374#0" expanded="false" />
+            <element signature="e#15294#15312#0" expanded="true" />
+            <element signature="e#15392#16017#0" expanded="false" />
+            <element signature="e#15904#15922#0" expanded="true" />
+            <element signature="e#16389#16756#0" expanded="false" />
+            <element signature="e#16674#16692#0" expanded="true" />
+            <element signature="e#16774#17399#0" expanded="false" />
+            <element signature="e#17286#17304#0" expanded="true" />
+            <element signature="e#17497#18861#0" expanded="false" />
+            <element signature="e#17821#18188#0" expanded="false" />
+            <element signature="e#18106#18124#0" expanded="true" />
+            <element signature="e#18206#18831#0" expanded="false" />
+            <element signature="e#18718#18736#0" expanded="true" />
+            <element signature="e#18875#20241#0" expanded="false" />
+            <element signature="e#19201#19568#0" expanded="false" />
+            <element signature="e#19486#19504#0" expanded="true" />
+            <element signature="e#19586#20211#0" expanded="false" />
+            <element signature="e#20098#20116#0" expanded="true" />
+            <element signature="e#20255#21627#0" expanded="false" />
+            <element signature="e#20587#20954#0" expanded="false" />
+            <element signature="e#20872#20890#0" expanded="true" />
+            <element signature="e#20972#21597#0" expanded="false" />
+            <element signature="e#21484#21502#0" expanded="true" />
+            <element signature="e#21641#23004#0" expanded="false" />
+            <element signature="e#21964#22331#0" expanded="false" />
+            <element signature="e#22249#22267#0" expanded="true" />
+            <element signature="e#22349#22974#0" expanded="false" />
+            <element signature="e#22861#22879#0" expanded="true" />
+            <element signature="e#23018#24382#0" expanded="false" />
+            <element signature="e#23342#23709#0" expanded="false" />
+            <element signature="e#23627#23645#0" expanded="true" />
+            <element signature="e#23727#24352#0" expanded="false" />
+            <element signature="e#24239#24257#0" expanded="true" />
+            <element signature="e#24396#25764#0" expanded="false" />
+            <element signature="e#24724#25091#0" expanded="false" />
+            <element signature="e#25009#25027#0" expanded="true" />
+            <element signature="e#25109#25734#0" expanded="false" />
+            <element signature="e#25621#25639#0" expanded="true" />
+            <element signature="e#25778#27140#0" expanded="false" />
+            <element signature="e#26100#26467#0" expanded="false" />
+            <element signature="e#26385#26403#0" expanded="true" />
+            <element signature="e#26485#27110#0" expanded="false" />
+            <element signature="e#26997#27015#0" expanded="true" />
+            <element signature="e#27154#28520#0" expanded="false" />
+            <element signature="e#27480#27847#0" expanded="false" />
+            <element signature="e#27765#27783#0" expanded="true" />
+            <element signature="e#27865#28490#0" expanded="false" />
+            <element signature="e#28377#28395#0" expanded="true" />
+            <element signature="e#28534#29899#0" expanded="false" />
+            <element signature="e#28859#29226#0" expanded="false" />
+            <element signature="e#29144#29162#0" expanded="true" />
+            <element signature="e#29244#29869#0" expanded="false" />
+            <element signature="e#29756#29774#0" expanded="true" />
+            <element signature="e#29913#31276#0" expanded="false" />
+            <element signature="e#30236#30603#0" expanded="false" />
+            <element signature="e#30521#30539#0" expanded="true" />
+            <element signature="e#30621#31246#0" expanded="false" />
+            <element signature="e#31133#31151#0" expanded="true" />
+            <element signature="e#31290#32657#0" expanded="false" />
+            <element signature="e#31617#31984#0" expanded="false" />
+            <element signature="e#31902#31920#0" expanded="true" />
+            <element signature="e#32002#32627#0" expanded="false" />
+            <element signature="e#32514#32532#0" expanded="true" />
+            <element signature="e#32671#34036#0" expanded="false" />
+            <element signature="e#32996#33363#0" expanded="false" />
+            <element signature="e#33281#33299#0" expanded="true" />
+            <element signature="e#33381#34006#0" expanded="false" />
+            <element signature="e#33893#33911#0" expanded="true" />
+            <element signature="e#34050#35414#0" expanded="false" />
+            <element signature="e#34374#34741#0" expanded="false" />
+            <element signature="e#34659#34677#0" expanded="true" />
+            <element signature="e#34759#35384#0" expanded="false" />
+            <element signature="e#35271#35289#0" expanded="true" />
+            <element signature="e#35428#36791#0" expanded="false" />
+            <element signature="e#35751#36118#0" expanded="false" />
+            <element signature="e#36036#36054#0" expanded="true" />
+            <element signature="e#36136#36761#0" expanded="false" />
+            <element signature="e#36648#36666#0" expanded="true" />
+            <element signature="e#36805#38178#0" expanded="false" />
+            <element signature="e#37138#37505#0" expanded="false" />
+            <element signature="e#37423#37441#0" expanded="true" />
+            <element signature="e#37523#38148#0" expanded="false" />
+            <element signature="e#38035#38053#0" expanded="true" />
+            <element signature="e#38192#39561#0" expanded="false" />
+            <element signature="e#38521#38888#0" expanded="false" />
+            <element signature="e#38806#38824#0" expanded="true" />
+            <element signature="e#38906#39531#0" expanded="false" />
+            <element signature="e#39418#39436#0" expanded="true" />
+            <element signature="e#39575#40941#0" expanded="false" />
+            <element signature="e#39901#40268#0" expanded="false" />
+            <element signature="e#40186#40204#0" expanded="true" />
+            <element signature="e#40286#40911#0" expanded="false" />
+            <element signature="e#40798#40816#0" expanded="true" />
+            <element signature="e#40955#42326#0" expanded="false" />
+            <element signature="e#41286#41653#0" expanded="false" />
+            <element signature="e#41571#41589#0" expanded="true" />
+            <element signature="e#41671#42296#0" expanded="false" />
+            <element signature="e#42183#42201#0" expanded="true" />
+            <element signature="e#42951#42969#0" expanded="true" />
+            <element signature="e#43563#43581#0" expanded="true" />
+            <element signature="e#44338#44356#0" expanded="true" />
+            <element signature="e#44948#44966#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_filter.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.8815534">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="e#384#406#0" expanded="true" />
+            <element signature="e#551#572#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/activity/FilterActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.4155495">
-          <caret line="332" column="0" selection-start-line="332" selection-start-column="0" selection-end-line="332" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#onCreateOptionsMenu#0;class#FilterActivity#0" expanded="false" />
-            <element signature="class#12435:14573" expanded="false" />
-            <element signature="method#onFileSelected#0;class#12435:14573" expanded="false" />
-            <element signature="method#onFileSelected#1;class#12435:14573" expanded="false" />
+            <element signature="method#onOptionsItemSelected#0;class#FilterActivity#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#FilterActivity#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/CameraBridgeViewBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32922536">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-24/android.jar!/android/app/Activity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36770427">
+          <caret line="328" column="16" selection-start-line="328" selection-start-column="16" selection-end-line="328" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_camera_view.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_camera_view.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filechooserlibrary/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12569316">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NativeFiltersLibrary/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8798521">
+          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVLibrary310/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43992606">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.9760147">
+          <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/togrulseyid/prizmatagram/activity/CameraViewActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27882037">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

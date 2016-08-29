@@ -28,6 +28,7 @@ public class Algorithms {
 
     public static final String STR_NATIVE_FLIP = "NATIVE_FLIP";
     public static final String STR_NATIVE_MIRROR = "NATIVE_MIRROR";
+    public static final String STR_NATIVE_STYLIZATION = "NATIVE_STYLIZATION";
 
 
     public static final String STR_WATER_FILTER = "WATER_FILTER";

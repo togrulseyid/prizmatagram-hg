@@ -97,11 +97,27 @@ JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_Sho
 
 /*
  * Class:     com_togrulseyid_prizmatagram_natives_NativeClass
+ * Method:    cartoonifyImages
+ * Signature: (J)V
+ */
+JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_cartoonifyImages
+  (JNIEnv *, jclass, jlong, jboolean, jboolean, jboolean);
+
+/*
+ * Class:     com_togrulseyid_prizmatagram_natives_NativeClass
  * Method:    nativeFlip
  * Signature: (J)V
  */
 JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_nativeFlip
   (JNIEnv *, jclass, jlong);
+
+/*
+ * Class:     com_togrulseyid_prizmatagram_natives_NativeClass
+ * Method:    nativeStylization
+ * Signature: (J)V
+ */
+JNIEXPORT void JNICALL Java_com_togrulseyid_prizmatagram_natives_NativeClass_nativeStylization
+  (JNIEnv *, jclass, jlong, jfloat, jfloat);
 
 /*
  * Class:     com_togrulseyid_prizmatagram_natives_NativeClass

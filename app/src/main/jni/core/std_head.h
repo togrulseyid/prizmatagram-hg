@@ -34,6 +34,15 @@
 #include "opencv2/highgui/highgui.hpp"
 #include "opencv2/highgui.hpp"
 
+
+
+#include <opencv2/photo.hpp>
+#include "opencv2/imgcodecs.hpp"
+#include <opencv2/highgui.hpp>
+
+
+
+
 #define LOG_TAG "NativeLog"
 
 #define LOGE(...) __android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__)

@@ -21,7 +21,8 @@ LOCAL_SRC_FILES := NativeClass.cpp \
                     effects/Kaleidoscope.cpp \
                     effects/television.cpp \
                     effects/FishEye.cpp \
-                    effects/Pixelate.cpp
+                    effects/Pixelate.cpp \
+                    effects/ExposureSequence.cpp
 
 
 

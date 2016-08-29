@@ -363,6 +363,7 @@
                     android:textSize="16sp" />
             </RelativeLayout>
 
+
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -986,6 +987,37 @@
                     android:textSize="16sp" />
             </RelativeLayout>
 
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:onClick="onClickEffectButton"
+                android:tag="NATIVE_STYLIZATION">
+
+                <ImageView
+                    android:id="@+id/filter_effect_31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_effect_flip" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/filter_effect_31"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:text="@string/effect31"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </RelativeLayout>
 
             <!--<RelativeLayout-->
             <!--android:layout_width="wrap_content"-->

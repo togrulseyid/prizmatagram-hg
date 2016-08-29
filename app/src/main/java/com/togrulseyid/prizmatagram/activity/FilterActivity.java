@@ -24,6 +24,7 @@ import com.togrulseyid.prizmatagram.utils.Algorithms;
 
 import junit.framework.Assert;
 
+import org.opencv.android.Utils;
 import org.opencv.core.Mat;
 import org.opencv.imgproc.Imgproc;
 
@@ -54,9 +55,12 @@ public class FilterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_filter);
 
+
+//        startActivity(new Intent(this, CartoonifierApp.class));
+//        finish();
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_filter);
         setSupportActionBar(toolbar);
-
 
         ButterKnife.inject(this);
 
@@ -64,13 +68,8 @@ public class FilterActivity extends AppCompatActivity {
         Assert.assertNotNull(filterModel);
         Assert.assertNotNull(filterModel.getSrcBitmap());
 
-
         bitMapOriginal = filterModel.getSrcBitmap().copy(filterModel.getSrcBitmap().getConfig(), true);
         filterModel.setCurrentBitmap(filterModel.getSrcBitmap().copy(filterModel.getSrcBitmap().getConfig(), false));
-//        bitMap = filterModel.getSrcBitmap();
-//        bitMap = Bitmap.createBitmap(bitMapOriginal.getWidth(), bitMapOriginal.getHeight(), Bitmap.Config.ARGB_8888);//RGB_565
-//        bitMap = filterModel.getCurrentBitmap().copy(filterModel.getCurrentBitmap().getConfig(), true);
-
         imageView.setImage(ImageSource.bitmap(bitMapOriginal));
     }
 
@@ -81,16 +80,11 @@ public class FilterActivity extends AppCompatActivity {
         if (bitMap != null && !bitMap.isRecycled())
             bitMap.recycle();
 
-//        if (bitMapOriginal.isRecycled()) {
-//            Log.d("testA", "bitMapOriginal is Recycled");
-//            bitMapOriginal = filterModel.getCurrentBitmap().copy(filterModel.getCurrentBitmap().getConfig(), true);
-//        }
-
         bitMapOriginal = filterModel.getCurrentBitmap().copy(filterModel.getCurrentBitmap().getConfig(), true);
         bitMap = filterModel.getCurrentBitmap().copy(filterModel.getCurrentBitmap().getConfig(), true);
 
         Mat mat = new Mat();
-        org.opencv.android.Utils.bitmapToMat(bitMap, mat, true);
+        Utils.bitmapToMat(bitMap, mat, true);
         Imgproc.cvtColor(mat, mat, Imgproc.COLOR_BGR2RGB);
 
         Library library = new Library(bitMapOriginal);
@@ -101,12 +95,13 @@ public class FilterActivity extends AppCompatActivity {
 
             case Algorithms.STR_NATIVE_TEST:
                 NativeClass.nativeTest(mat.getNativeObjAddr());
-                org.opencv.android.Utils.matToBitmap(mat, bitMap);
+//                NativeClass.cartoonifyImages(mat.getNativeObjAddr(), false, true, false);
+                Utils.matToBitmap(mat, bitMap);
                 break;
 
             case Algorithms.STR_NATIVE_FUNCTION:
                 NativeClass.myNativeFunction(mat.getNativeObjAddr());
-                org.opencv.android.Utils.matToBitmap(mat, bitMap);
+                Utils.matToBitmap(mat, bitMap);
                 break;
 
             case Algorithms.STR_NATIVE_DITHERING:
@@ -116,25 +111,25 @@ public class FilterActivity extends AppCompatActivity {
             case Algorithms.STR_NATIVE_MOSAIC:
                 NativeClass.nativeMosaic(mat.getNativeObjAddr(), 24);
                 Imgproc.cvtColor(mat, mat, Imgproc.COLOR_RGB2BGR);
-                org.opencv.android.Utils.matToBitmap(mat, bitMap);
+                Utils.matToBitmap(mat, bitMap);
                 break;
 
             case Algorithms.STR_NATIVE_TELEVISION:
                 NativeClass.nativeTelevision(mat.getNativeObjAddr());
                 Imgproc.cvtColor(mat, mat, Imgproc.COLOR_RGB2BGR);
-                org.opencv.android.Utils.matToBitmap(mat, bitMap);
+                Utils.matToBitmap(mat, bitMap);
                 break;
 
             case Algorithms.STR_NATIVE_PIXELATE:
                 NativeClass.nativePixelize(mat.getNativeObjAddr(), 5);
                 Imgproc.cvtColor(mat, mat, Imgproc.COLOR_RGB2BGR);
-                org.opencv.android.Utils.matToBitmap(mat, bitMap);
+                Utils.matToBitmap(mat, bitMap);
                 break;
 
             case Algorithms.STR_NATIVE_PIXELATE_2:
                 NativeClass.nativePixelate(mat.getNativeObjAddr(), 5);
                 Imgproc.cvtColor(mat, mat, Imgproc.COLOR_RGB2BGR);
-                org.opencv.android.Utils.matToBitmap(mat, bitMap);
+                Utils.matToBitmap(mat, bitMap);
                 break;
 
             case Algorithms.STR_NATIVE_OIL_PAINT:
@@ -142,7 +137,7 @@ public class FilterActivity extends AppCompatActivity {
                 int radius = 5;
                 NativeClass.nativeOilPaint(mat.getNativeObjAddr(), intensity, radius);
                 Imgproc.cvtColor(mat, mat, Imgproc.COLOR_RGB2BGR);
-                org.opencv.android.Utils.matToBitmap(mat, bitMap);
+                Utils.matToBitmap(mat, bitMap);
                 break;
 
             case Algorithms.STR_WATER_FILTER:
@@ -153,19 +148,26 @@ public class FilterActivity extends AppCompatActivity {
             case Algorithms.STR_NATIVE_FISH_EYE:
                 NativeClass.nativeFishEye(mat.getNativeObjAddr());
                 Imgproc.cvtColor(mat, mat, Imgproc.COLOR_RGB2BGR);
-                org.opencv.android.Utils.matToBitmap(mat, bitMap);
+                Utils.matToBitmap(mat, bitMap);
                 break;
 
             case Algorithms.STR_NATIVE_FLIP:
                 NativeClass.nativeFlip(mat.getNativeObjAddr());
                 Imgproc.cvtColor(mat, mat, Imgproc.COLOR_RGB2BGR);
-                org.opencv.android.Utils.matToBitmap(mat, bitMap);
+                Utils.matToBitmap(mat, bitMap);
                 break;
 
             case Algorithms.STR_NATIVE_MIRROR:
                 NativeClass.nativeMirror(mat.getNativeObjAddr());
                 Imgproc.cvtColor(mat, mat, Imgproc.COLOR_RGB2BGR);
-                org.opencv.android.Utils.matToBitmap(mat, bitMap);
+                Utils.matToBitmap(mat, bitMap);
+                break;
+
+
+            case Algorithms.STR_NATIVE_STYLIZATION:
+                NativeClass.nativeStylization(mat.getNativeObjAddr(), 60, 0.45f);
+                Imgproc.cvtColor(mat, mat, Imgproc.COLOR_RGB2BGR);
+                Utils.matToBitmap(mat, bitMap);
                 break;
 
             //TODO: zirradim bura o kitabxanadakilari
@@ -275,7 +277,6 @@ public class FilterActivity extends AppCompatActivity {
         mat.release();
         long elapsedTime = stopTime - startTime;
         Log.d(TAG, "elapsedTime: " + elapsedTime);
-
     }
 
     @Override
@@ -307,13 +308,15 @@ public class FilterActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    void resetOriginalImage() {
+    private void resetOriginalImage() {
         bitMapOriginal = filterModel.getSrcBitmap();
         filterModel.setCurrentBitmap(filterModel.getSrcBitmap().copy(filterModel.getSrcBitmap().getConfig(), true));
         imageView.setImage(ImageSource.bitmap(bitMapOriginal));
+
+        Toast.makeText(getApplicationContext(), getString(R.string.message_action_saved), Toast.LENGTH_LONG).show();
     }
 
-    void saveImage() {
+    private void saveImage() {
         // Create the dialog.
         FileChooserDialog dialog = new FileChooserDialog(FilterActivity.this);
 
@@ -327,16 +330,16 @@ public class FilterActivity extends AppCompatActivity {
         dialog.show();
     }
 
-    void applyImageEffect() {
+    private void applyImageEffect() {
         imageView.buildDrawingCache();
         filterModel.setCurrentBitmap(imageView.getDrawingCache());
+        Toast.makeText(getApplicationContext(), getString(R.string.message_action_applied), Toast.LENGTH_LONG).show();
     }
 
     private FileChooserDialog.OnFileSelectedListener onFileSelectedListener = new FileChooserDialog.OnFileSelectedListener() {
         public void onFileSelected(Dialog source, File file) {
             source.hide();
 
-//            Bitmap bmp = bitMapOriginal;
             Bitmap bmp = bitMap;
 
             FileOutputStream out = null;
@@ -345,9 +348,7 @@ public class FilterActivity extends AppCompatActivity {
                 bmp.compress(Bitmap.CompressFormat.PNG, 100, out); // bmp is your Bitmap instance
                 // PNG is a lossless format, the compression factor (100) is ignored
 
-                Toast toast = Toast.makeText(FilterActivity.this, "File selected: " + file.getName(), Toast.LENGTH_LONG);
-                toast.show();
-
+                Toast.makeText(getApplicationContext(), getString(R.string.message_action_saved), Toast.LENGTH_LONG).show();
             } catch (Exception e) {
                 e.printStackTrace();
             } finally {
@@ -364,7 +365,6 @@ public class FilterActivity extends AppCompatActivity {
 
         public void onFileSelected(Dialog source, File folder, String name) {
             source.hide();
-//            Bitmap bmp = bitMapOriginal;
             Bitmap bmp = bitMap;
 
             FileOutputStream out = null;
@@ -372,8 +372,8 @@ public class FilterActivity extends AppCompatActivity {
                 out = new FileOutputStream(folder.getAbsolutePath() + File.separator + name + PNG);
                 bmp.compress(Bitmap.CompressFormat.PNG, 100, out); // bmp is your Bitmap instance
                 // PNG is a lossless format, the compression factor (100) is ignored
-                Toast toast = Toast.makeText(FilterActivity.this, "File created " + folder.getName() + "/" + name + PNG, Toast.LENGTH_LONG);
-                toast.show();
+
+                Toast.makeText(getApplicationContext(), getString(R.string.message_action_saved), Toast.LENGTH_LONG).show();
             } catch (Exception e) {
                 e.printStackTrace();
                 Log.d("FileDirIs", "Error: " + e.getLocalizedMessage());

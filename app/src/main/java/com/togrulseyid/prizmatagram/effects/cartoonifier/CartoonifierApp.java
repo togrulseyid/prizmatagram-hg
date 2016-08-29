@@ -15,6 +15,7 @@ import android.view.MotionEvent;
 /**
  * Created by toghrul on 03.08.2016.
  */
+//TODO: Delete all this stuff
 public class CartoonifierApp extends Activity implements OnTouchListener {
     private static final String TAG = "CartoonifierApp";
     private CartoonifierView mView;
